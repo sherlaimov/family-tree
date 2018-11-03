@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style type="text/css">
+  .node {
+    cursor: pointer;
+  }
+
+  .overlay {
+    background-color: #ffffff;
+  }
+
+  .node circle {
+    fill: #0055ff;
+    stroke: #bc5723;
+    stroke-width: 1.9px;
+  }
+
+  .node text {
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 0.9px;
+  }
+
+  .templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+  }
+
+  .ghostCircle.show {
+    display: block;
+  }
+
+  .ghostCircle,
+  .activeDrag .ghostCircle {
+    display: none;
+  }
+</style>
+<script src="jquery-1.10.2.min.js"></script>
+<script src="d3.js" charset="utf-8"></script>
+<script src="dndTree.js"></script>
+
+<body>
+
+  <div id="tree-container">
+    <p style="position: fixed; top: 0px; left: 30px; font-size: 11pt; background: white;"> Масштабируйте колёсиком;
+      перемещайтёсь, перетаскивая фон.<br> Щёлкните на Рюрика.</p>
+    <p style="position: fixed; top: 0px; left: 657px; font-size: 10pt; background: white; z-index: 1;"><a href="http://lisakov.com/blog/2014/12/02/rurik-genealogy/"
+        target="_blank">О странице</a></p>
+  </div>
+
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-56269876-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+
+</html>

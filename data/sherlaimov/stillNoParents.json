@@ -1,0 +1,741 @@
+[
+  {
+    "fullname": "...",
+    "alive": "T",
+    "sex": "F",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "14.03.2009",
+    "spouse": { "child": { "id": "koFEJB3esW" }, "id": "" },
+    "id": "kOCfUr6CTr"
+  },
+  {
+    "fullname": "...",
+    "alive": "T",
+    "sex": "M",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.03.2009",
+    "spouse": [
+      { "child": { "id": "h8fOcHJlc7" }, "id": "Unknown spouse" },
+      { "child": { "id": "koFHOycbrw" }, "id": "Unknown spouse" },
+      { "child": { "id": "kOC2uziFx7" }, "id": "Unknown spouse" },
+      { "child": { "id": "kOC3a16TLH" }, "id": "Unknown spouse" }
+    ],
+    "id": "koFHJbJwMZ"
+  },
+  {
+    "fullname": "...",
+    "sex": "M",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.01.2015",
+    "de": "10.01.2015",
+    "spouse": [
+      { "child": { "id": "12YGvTlmEJ" }, "id": "Unknown spouse" },
+      { "child": { "id": "12YGw0xAp2" }, "id": "Unknown spouse" }
+    ],
+    "id": "12YGVrUp6m"
+  },
+  {
+    "fullname": "Ананьев Василий",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Ананьев",
+    "firstName": "Василий",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "09.03.2009",
+    "spouse": { "child": { "id": "h8fMScrp4K" }, "id": "" },
+    "id": "kmFjdCIawq"
+  },
+  {
+    "fullname": "Барнашева (Михайлова) Валентина Ильинична",
+    "birthDate": 1933,
+    "age": 83,
+    "comment": "Родился в селе Бергамак Муромцевского района Омской области",
+    "alive": "T",
+    "sex": "F",
+    "sn": "Барнашева",
+    "lastName": "Михайлова",
+    "firstName": "Валентина",
+    "patronymic": "Ильинична",
+    "byear": 1933,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "bfdateGED": 1933,
+    "spouse": { "child": [{ "id": "MhcEwrBzOp" }, { "id": "MhAuNM0PAc" }], "id": "MhcbYNzd9M" },
+    "id": "MhcAcPD6s5",
+    "spouseData": {
+      "fullname": "Барнашев Виктор Андреевич",
+      "birthDate": 1934,
+      "comment": "Родился в селе Бергамак Муромцевского района Омской области.\r\nПосле окончания школы и вплоть до выхода на пенсию Виктор Андреевич работал шофёром, а Валентина Ильинична, работала на местной молокоприёмной станции. Умер от рака желудка, который был обнаружен очень поздно, и буквально через 3 недели после прогноза его не стало.",
+      "sex": "M",
+      "lifespan": 75,
+      "dfdate": "07.08.2009",
+      "sn": "Барнашев",
+      "firstName": "Виктор",
+      "patronymic": "Андреевич",
+      "byear": 1934,
+      "dyear": 2009,
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "03.01.2010",
+      "bfdateGED": 1934,
+      "dfdateGED": "7 AUG 2009",
+      "spouse": { "child": [{ "id": "MhcEwrBzOp" }, { "id": "MhAuNM0PAc" }], "id": "MhcAcPD6s5" },
+      "id": "MhcbYNzd9M"
+    }
+  },
+  {
+    "fullname": "Борис",
+    "alive": "T",
+    "sex": "M",
+    "firstName": "Борис",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.01.2015",
+    "spouse": [
+      { "child": { "id": "12ygMjwgOc" }, "id": "Unknown spouse" },
+      { "child": { "id": "12YGUdxss1" }, "id": "Unknown spouse" },
+      { "child": { "id": "12YGUJcVDG" }, "id": "Unknown spouse" }
+    ],
+    "id": "12YGuuQw7D"
+  },
+  {
+    "fullname": "Гаврилов Аркадий",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Гаврилов",
+    "firstName": "Аркадий",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "spouse": [
+      { "child": { "id": "MhdwLtRgdw" }, "id": "Unknown spouse" },
+      { "child": { "id": "MhdXM2wv6t" }, "id": "Unknown spouse" },
+      { "child": { "id": "PyCN8MWdRk" }, "id": "Unknown spouse" },
+      { "child": { "id": "PyCQ7nd6I2" }, "id": "Unknown spouse" },
+      { "child": { "id": "MhdNYN8wFN" }, "id": "Unknown spouse" }
+    ],
+    "id": "Mhdw2BP86h"
+  },
+  {
+    "fullname": "Камынин Степан Тимофеевич",
+    "sex": "M",
+    "dfdate": 1955,
+    "sn": "Камынин",
+    "firstName": "Степан",
+    "patronymic": "Тимофеевич",
+    "dyear": 1955,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "dfdateGED": 1955,
+    "spouse": {
+      "child": [
+        { "id": "MHEsQD0qMV" },
+        { "id": "MHEtC0kTm3" },
+        { "id": "MHETl61El9" },
+        { "id": "MHETQ8G3Ml" },
+        { "id": "MHETyQgsx5" },
+        { "id": "MHEuCnhSWb" },
+        { "id": "MHEU6WgOQs" },
+        { "id": "MHEvexz2JL" },
+        { "id": "MHDRluMxTi" }
+      ],
+      "id": "MHEsaQuJte"
+    },
+    "id": "MHERJNKC7O",
+    "spouseData": {
+      "fullname": "Евдокия",
+      "sex": "F",
+      "dfdate": 1960,
+      "firstName": "Евдокия",
+      "dyear": 1960,
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "04.01.2010",
+      "dfdateGED": 1960,
+      "spouse": {
+        "child": [
+          { "id": "MHEsQD0qMV" },
+          { "id": "MHEtC0kTm3" },
+          { "id": "MHETl61El9" },
+          { "id": "MHETQ8G3Ml" },
+          { "id": "MHETyQgsx5" },
+          { "id": "MHEuCnhSWb" },
+          { "id": "MHEU6WgOQs" },
+          { "id": "MHEvexz2JL" },
+          { "id": "MHDRluMxTi" }
+        ],
+        "id": "MHERJNKC7O"
+      },
+      "id": "MHEsaQuJte"
+    }
+  },
+  {
+    "fullname": "Карпов Прокопий",
+    "sex": "M",
+    "sn": "Карпов",
+    "firstName": "Прокопий",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.08.2015",
+    "spouse": { "child": { "id": "16DfMxsj0I" }, "id": "" },
+    "id": "16DfraIMAT"
+  },
+  {
+    "fullname": "Клепус (Клепушевский) Войцех Валентьевич",
+    "comment": "Приехал из Житомира (Польша). Была сестра, с которой переписывалась Федора.",
+    "sex": "M",
+    "sn": "Клепус (Клепушевский)",
+    "firstName": "Войцех",
+    "patronymic": "Валентьевич",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "spouse": [
+      { "child": { "id": "102gIdylZO" }, "id": "Unknown spouse" },
+      { "child": { "id": "102glO3agR" }, "id": "Unknown spouse" },
+      { "child": { "id": "102gOmorIf" }, "id": "Unknown spouse" },
+      { "child": { "id": "102gWMqQRp" }, "id": "Unknown spouse" },
+      { "child": { "id": "102gYA8O0n" }, "id": "Unknown spouse" },
+      { "child": { "id": "102G1HQEOW" }, "id": "Unknown spouse" },
+      { "child": { "id": "102GGrkuQl" }, "id": "Unknown spouse" }
+    ],
+    "id": "102gJtBXRd"
+  },
+  {
+    "fullname": "Комогорцев Алексей Михайлович",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Комогорцев",
+    "firstName": "Алексей",
+    "patronymic": "Михайлович",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "spouse": {
+      "child": [
+        { "id": "MhdJ6VDAPP" },
+        { "id": "MhdQnNkqcC" },
+        { "id": "MhdSi6Z1LN" },
+        { "id": "MhdSQfVLY3" },
+        { "id": "MhdU1e5Xlz" },
+        { "id": "Mhdv4QjRC7" }
+      ],
+      "id": "MhdqpdwDt4"
+    },
+    "id": "MhdPvLwr5O",
+    "spouseData": {
+      "fullname": "(Балагурова) Надежда Петровна",
+      "alive": "T",
+      "sex": "F",
+      "lastName": "Балагурова",
+      "firstName": "Надежда",
+      "patronymic": "Петровна",
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "03.01.2010",
+      "spouse": {
+        "child": [
+          { "id": "MhdJ6VDAPP" },
+          { "id": "MhdQnNkqcC" },
+          { "id": "MhdSi6Z1LN" },
+          { "id": "MhdSQfVLY3" },
+          { "id": "MhdU1e5Xlz" },
+          { "id": "Mhdv4QjRC7" }
+        ],
+        "id": "MhdPvLwr5O"
+      },
+      "id": "MhdqpdwDt4"
+    }
+  },
+  {
+    "fullname": "Коновалов Тимофей",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Коновалов",
+    "firstName": "Тимофей",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "05.02.2008",
+    "spouse": [
+      { "child": { "id": "kOcP3g9xDr" }, "id": "Unknown spouse" },
+      { "child": { "id": "kOcPcbM0FV" }, "id": "Unknown spouse" },
+      { "child": { "id": "kOcPEXXiJ5" }, "id": "Unknown spouse" },
+      { "child": { "id": "h8fV4lHtes" }, "id": "Unknown spouse" }
+    ],
+    "id": "h8fwjUw3DH"
+  },
+  {
+    "fullname": "Константинов Нестер",
+    "sex": "M",
+    "fam": "Константиновы",
+    "sn": "Константинов",
+    "firstName": "Нестер",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.01.2015",
+    "spouse": [
+      { "child": { "id": "102gdP3lsL" }, "id": "Unknown spouse" },
+      { "child": { "id": "12YGtI1kvD" }, "id": "Unknown spouse" }
+    ],
+    "id": "12YGSrvqSf"
+  },
+  {
+    "fullname": "Кошкина Полухерия Антоновна",
+    "sex": "F",
+    "sn": "Кошкина",
+    "firstName": "Полухерия",
+    "patronymic": "Антоновна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "05.11.2012",
+    "de": "07.01.2013",
+    "spouse": { "child": [{ "id": "V86vpFv9WW" }, { "id": "ktF1OiRsi2" }], "id": "v77iImrRKy" },
+    "id": "v77IjcSilb",
+    "spouseData": {
+      "fullname": "Кошкин Ермолай Корнилович",
+      "comment": "Родом из Большого Ашапа",
+      "sex": "M",
+      "sn": "Кошкин",
+      "firstName": "Ермолай",
+      "patronymic": "Корнилович",
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "05.11.2012",
+      "spouse": { "child": [{ "id": "V86vpFv9WW" }, { "id": "ktF1OiRsi2" }], "id": "v77IjcSilb" },
+      "id": "v77iImrRKy"
+    }
+  },
+  {
+    "fullname": "Куликов Василий",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Куликов",
+    "firstName": "Василий",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "18.02.2014",
+    "spouse": { "child": { "id": "h7FEgzC7Kd" }, "id": "" },
+    "id": "YQFOD8LZgO"
+  },
+  {
+    "fullname": "Миронов Михаил",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Миронов",
+    "firstName": "Михаил",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "spouse": { "child": { "id": "Mhdj8G0RcR" }, "id": "" },
+    "id": "MhdjsUG9LU"
+  },
+  {
+    "fullname": "Назин Матвей",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Назин",
+    "firstName": "Матвей",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "spouse": [
+      { "child": { "id": "MHEKw1gwIP" }, "id": "Unknown spouse" },
+      { "child": { "id": "MHElG1K7Wa" }, "id": "Unknown spouse" },
+      { "child": { "id": "MHElrRUY2S" }, "id": "Unknown spouse" },
+      { "child": { "id": "MHEhw5EQE8" }, "id": "Unknown spouse" }
+    ],
+    "id": "MHEK3J55Z1"
+  },
+  {
+    "fullname": "Наум",
+    "sex": "M",
+    "dfdate": 1944,
+    "firstName": "Наум",
+    "dyear": 1944,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "07.04.2009",
+    "dfdateGED": 1944,
+    "spouse": [
+      { "child": { "id": "ktgxTvBSxi" }, "id": "Unknown spouse" },
+      { "child": { "id": "K1FO4vUAvU" }, "id": "Unknown spouse" }
+    ],
+    "id": "K1FoVMSaB3"
+  },
+  {
+    "fullname": "Николаева (Абросимова) Людмила  Павловна",
+    "birthDate": "18.08.1946",
+    "age": 69,
+    "comment": "Родилась в селе Шабо Одесской области 18 августа 1946 года в семье майора артиллерии. Успела объехать полстраны (Баку, Фрунзе), пока не поступила в Московский Физико-Технический институт в 1965 году.",
+    "alive": "T",
+    "sex": "F",
+    "sn": "Николаева",
+    "lastName": "Абросимова",
+    "firstName": "Людмила",
+    "patronymic": "Павловна",
+    "byear": 1946,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "bfdateGED": "18 AUG 1946",
+    "spouse": { "child": { "id": "MhAoBlWt0i" }, "id": "MhAScNE0h3" },
+    "id": "MhArwvcslt",
+    "spouseData": {
+      "fullname": "Николаев Николай Николаевич",
+      "birthDate": "20.05.1947",
+      "age": 68,
+      "comment": "Родился в деревне Михаткино Марийской АССР 20 мая 1947 года в семье школьного учителя истории. Поступил в Московский Физтех на один курс с мамой, где они встретились и поженились. Вместе закончили институт и распределились в Черноголовку, мама в Институт Твердого Тела,  а отец в Институт Теоретической Физики имени Ландау. Сейчас отец работает в Институте Ядерной Физике в Юлихе, Германия, и они живут то в Германии, то в Черноголовке.",
+      "alive": "T",
+      "sex": "M",
+      "sn": "Николаев",
+      "firstName": "Николай",
+      "patronymic": "Николаевич",
+      "byear": 1947,
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "03.01.2010",
+      "bfdateGED": "20 MAY 1947",
+      "spouse": { "child": { "id": "MhAoBlWt0i" }, "id": "MhArwvcslt" },
+      "id": "MhAScNE0h3"
+    }
+  },
+  {
+    "fullname": "Никонов Иван",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Никонов",
+    "firstName": "Иван",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.08.2015",
+    "spouse": { "child": { "id": "16DfogWziV" }, "id": "" },
+    "id": "16DfPfe1mQ"
+  },
+  {
+    "fullname": "Огнев Роман Михайлович",
+    "birthDate": "01.12.1903",
+    "age": 112,
+    "alive": "T",
+    "sex": "M",
+    "sn": "Огнев",
+    "firstName": "Роман",
+    "patronymic": "Михайлович",
+    "byear": 1903,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.02.2011",
+    "bfdateGED": "1 DEC 1903",
+    "spouse": { "child": { "id": "ktGQ0NKblD" }, "id": "" },
+    "id": "PWCOFpfikI"
+  },
+  {
+    "fullname": "Рудых ...",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Рудых",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "14.03.2009",
+    "de": "03.01.2010",
+    "spouse": [
+      { "child": { "id": "h8F0Msj1Ju" }, "id": "Unknown spouse" },
+      { "child": { "id": "kOcruqsHB0" }, "id": "Unknown spouse" }
+    ],
+    "id": "kOcrqkaSQf"
+  },
+  {
+    "fullname": "Рычков Федот",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Рычков",
+    "firstName": "Федот",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.03.2009",
+    "spouse": [
+      { "child": { "id": "kog4xd1FKu" }, "id": "Unknown spouse" },
+      { "child": { "id": "kmFyu9aGbS" }, "id": "Unknown spouse" }
+    ],
+    "id": "kog4MkKfNd"
+  },
+  {
+    "fullname": "Соколова  Мария Алексеевна",
+    "birthDate": 1867,
+    "sex": "F",
+    "lifespan": 88,
+    "dfdate": 1955,
+    "sn": "Соколова",
+    "firstName": "Мария",
+    "patronymic": "Алексеевна",
+    "byear": 1867,
+    "dyear": 1955,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "de": "09.03.2009",
+    "bfdateGED": 1867,
+    "dfdateGED": 1955,
+    "spouse": {
+      "marriage": {},
+      "child": [{ "id": "h8fNsibQCQ" }, { "id": "h8foeAfPGx" }, { "id": "h7gKdsl1d5" }],
+      "id": "h7gm1JUUGN"
+    },
+    "id": "h7gmPsGvXb",
+    "spouseData": {
+      "fullname": "Соколов Василий",
+      "birthDate": 1868,
+      "sex": "M",
+      "lifespan": 65,
+      "dfdate": 1933,
+      "sn": "Соколов",
+      "firstName": "Василий",
+      "byear": 1868,
+      "dyear": 1933,
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "04.02.2008",
+      "de": "09.03.2009",
+      "bfdateGED": 1868,
+      "dfdateGED": 1933,
+      "spouse": {
+        "child": [{ "id": "h8foeAfPGx" }, { "id": "h8fNsibQCQ" }, { "id": "h7gKdsl1d5" }],
+        "marriage": {},
+        "id": "h7gmPsGvXb"
+      },
+      "id": "h7gm1JUUGN"
+    }
+  },
+  {
+    "fullname": "Софья Ефимовна",
+    "birthDate": 1865,
+    "sex": "F",
+    "lifespan": 70,
+    "dfdate": 1935,
+    "firstName": "Софья",
+    "patronymic": "Ефимовна",
+    "byear": 1865,
+    "dyear": 1935,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "bfdateGED": 1865,
+    "dfdateGED": 1935,
+    "spouse": {
+      "child": [
+        { "id": "MHEGk0ArLr" },
+        { "id": "MHEGd5PXht" },
+        { "id": "MHEgP6VLTd" },
+        { "id": "MHEgkY6j8u" },
+        { "id": "MHEgCZTRLe" },
+        { "id": "MHEg6zTsk7" },
+        { "id": "MHEFsNleOa" },
+        { "id": "MHDlklFEBH" }
+      ],
+      "id": "MHE9dQpnLF"
+    },
+    "id": "MHE9SbladJ",
+    "spouseData": {
+      "fullname": "Подцуло Михаил Кузьмич",
+      "alive": "T",
+      "sex": "M",
+      "sn": "Подцуло",
+      "firstName": "Михаил",
+      "patronymic": "Кузьмич",
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "04.01.2010",
+      "spouse": {
+        "child": [
+          { "id": "MHEFsNleOa" },
+          { "id": "MHEg6zTsk7" },
+          { "id": "MHEgCZTRLe" },
+          { "id": "MHEgkY6j8u" },
+          { "id": "MHEgP6VLTd" },
+          { "id": "MHEGd5PXht" },
+          { "id": "MHEGk0ArLr" },
+          { "id": "MHDlklFEBH" }
+        ],
+        "id": "MHE9SbladJ"
+      },
+      "id": "MHE9dQpnLF"
+    }
+  },
+  {
+    "fullname": "Тихон",
+    "alive": "T",
+    "sex": "M",
+    "firstName": "Тихон",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.03.2009",
+    "spouse": { "child": { "id": "koE3gnT449" }, "id": "koE5pc3LqS" },
+    "id": "koE5ibeFQA",
+    "spouseData": {
+      "fullname": "Оглезнева Елена",
+      "sex": "F",
+      "dfdate": 1947,
+      "sn": "Оглезнева",
+      "firstName": "Елена",
+      "dyear": 1947,
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "13.03.2009",
+      "dfdateGED": 1947,
+      "spouse": { "child": { "id": "koE3gnT449" }, "id": "koE5ibeFQA" },
+      "id": "koE5pc3LqS"
+    }
+  },
+  {
+    "fullname": "Фадеев Трофим",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Фадеев",
+    "firstName": "Трофим",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "spouse": [
+      { "child": { "id": "MHeVQhFzWv" }, "id": "Unknown spouse" },
+      { "child": { "id": "MHeVXYKAQk" }, "id": "Unknown spouse" },
+      { "child": { "id": "MHewbqlXtS" }, "id": "Unknown spouse" },
+      { "child": { "id": "MHenaKlRG1" }, "id": "Unknown spouse" }
+    ],
+    "id": "MHeVGlFCgr"
+  },
+  {
+    "fullname": "Филюк Александр",
+    "birthDate": "11.10.1954",
+    "age": 61,
+    "alive": "T",
+    "sex": "M",
+    "sn": "Филюк",
+    "firstName": "Александр",
+    "byear": 1954,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.08.2015",
+    "bfdateGED": "11 OCT 1954",
+    "spouse": { "child": { "id": "16DfiVJh9Y" }, "id": "16DFcvVWED" },
+    "id": "16DFaCe1M1",
+    "spouseData": {
+      "fullname": "(Лядова) Лариса",
+      "birthDate": "13.07.1954",
+      "age": 61,
+      "alive": "T",
+      "sex": "F",
+      "lastName": "Лядова",
+      "firstName": "Лариса",
+      "byear": 1954,
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "04.08.2015",
+      "bfdateGED": "13 JUL 1954",
+      "spouse": { "child": { "id": "16DfiVJh9Y" }, "id": "16DFaCe1M1" },
+      "id": "16DFcvVWED"
+    }
+  },
+  {
+    "fullname": "Фуксман Яков",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Фуксман",
+    "firstName": "Яков",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "09.03.2009",
+    "spouse": { "child": { "id": "h7g8uSWsAh" }, "id": "" },
+    "id": "kmebUQdRSv"
+  },
+  {
+    "fullname": "Шерлаимова Дарья Яковлевна",
+    "sex": "F",
+    "sn": "Шерлаимова",
+    "firstName": "Дарья",
+    "patronymic": "Яковлевна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "05.11.2012",
+    "spouse": {
+      "marriage": {},
+      "child": [
+        { "id": "ktF0gJDIYD" },
+        { "id": "V866MfSiKP" },
+        { "id": "V866sXVMvB" },
+        { "id": "V866yZb5Vz" }
+      ],
+      "id": "MhCX23FNQm"
+    },
+    "id": "v77GrqyjEL",
+    "spouseData": {
+      "fullname": "Шерлаимов Герасим Яковлиевич",
+      "sex": "M",
+      "sn": "Шерлаимов",
+      "firstName": "Герасим",
+      "patronymic": "Яковлиевич",
+      "ltrust": 10,
+      "lconf": 0,
+      "di": "03.01.2010",
+      "de": "05.11.2012",
+      "spouse": {
+        "marriage": {},
+        "child": [
+          { "id": "V866MfSiKP" },
+          { "id": "V866sXVMvB" },
+          { "id": "V866yZb5Vz" },
+          { "id": "ktF0gJDIYD" }
+        ],
+        "id": "v77GrqyjEL"
+      },
+      "id": "MhCX23FNQm"
+    }
+  },
+  {
+    "fullname": "Шнелле Иван",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Шнелле",
+    "firstName": "Иван",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "spouse": { "child": { "id": "ktF7QlmgTs" }, "id": "" },
+    "id": "MhCXuujLud"
+  },
+  {
+    "fullname": "Шумаков ...",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Шумаков",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "spouse": [
+      { "child": { "id": "MHEId54wnW" }, "id": "Unknown spouse" },
+      { "child": { "id": "MHEJByWhsh" }, "id": "Unknown spouse" },
+      { "child": { "id": "MHEJGek639" }, "id": "Unknown spouse" }
+    ],
+    "id": "MHEjThnqno"
+  },
+  {
+    "fullname": "Юсупов Гимай",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Юсупов",
+    "firstName": "Гимай",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "spouse": [
+      { "child": { "id": "MhdiVG1PSv" }, "id": "Unknown spouse" },
+      { "child": { "id": "MhdIAsfw38" }, "id": "Unknown spouse" },
+      { "child": { "id": "MhdFExovmC" }, "id": "Unknown spouse" }
+    ],
+    "id": "MhdiKjla0V"
+  }
+]

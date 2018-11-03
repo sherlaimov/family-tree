@@ -1,0 +1,288 @@
+[
+  {
+    "fullname": "(Винокурова) Татьяна Валерьевна",
+    "birthDate": "18.05.1963",
+    "age": 52,
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Винокурова",
+    "firstName": "Татьяна",
+    "patronymic": "Валерьевна",
+    "byear": 1963,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "bfdateGED": "18 MAY 1963",
+    "spouse": [
+      { "marriage": {}, "child": { "id": "MHe6M2k8wE" }, "id": "MHe37NygLZ" },
+      { "child": { "id": "MHe5sHdBAU" }, "id": "" }
+    ],
+    "id": "MHe4gBdqoQ"
+  },
+  {
+    "fullname": "(Май (Солодкина)) Людмила Александровна",
+    "birthDate": "12.11.1954",
+    "age": 61,
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Май (Солодкина)",
+    "firstName": "Людмила",
+    "patronymic": "Александровна",
+    "byear": 1954,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "bfdateGED": "12 NOV 1954",
+    "spouse": [
+      { "marriage": {}, "child": { "id": "MHeIwV39DI" }, "id": "MHehVeevpj" },
+      { "child": { "id": "MHeIDGWBDR" }, "id": "" }
+    ],
+    "id": "MHei6jEhKd"
+  },
+  {
+    "fullname": "...",
+    "alive": "T",
+    "sex": "M",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.03.2009",
+    "spouse": [
+      { "child": { "id": "h8fOcHJlc7" }, "id": "" },
+      { "child": { "id": "koFHOycbrw" }, "id": "" },
+      { "child": { "id": "kOC2uziFx7" }, "id": "" },
+      { "child": { "id": "kOC3a16TLH" }, "id": "" }
+    ],
+    "id": "koFHJbJwMZ"
+  },
+  {
+    "fullname": "...",
+    "sex": "M",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.01.2015",
+    "de": "10.01.2015",
+    "spouse": [
+      { "child": { "id": "12YGvTlmEJ" }, "id": "" },
+      { "child": { "id": "12YGw0xAp2" }, "id": "" }
+    ],
+    "id": "12YGVrUp6m"
+  },
+  {
+    "fullname": "Борис",
+    "alive": "T",
+    "sex": "M",
+    "firstName": "Борис",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.01.2015",
+    "spouse": [
+      { "child": { "id": "12ygMjwgOc" }, "id": "" },
+      { "child": { "id": "12YGUdxss1" }, "id": "" },
+      { "child": { "id": "12YGUJcVDG" }, "id": "" }
+    ],
+    "id": "12YGuuQw7D"
+  },
+  {
+    "fullname": "Гаврилов Аркадий",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Гаврилов",
+    "firstName": "Аркадий",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "spouse": [
+      { "child": { "id": "MhdwLtRgdw" }, "id": "" },
+      { "child": { "id": "MhdXM2wv6t" }, "id": "" },
+      { "child": { "id": "PyCN8MWdRk" }, "id": "" },
+      { "child": { "id": "PyCQ7nd6I2" }, "id": "" },
+      { "child": { "id": "MhdNYN8wFN" }, "id": "" }
+    ],
+    "id": "Mhdw2BP86h"
+  },
+  {
+    "fullname": "Клепус (Клепушевский) Войцех Валентьевич",
+    "comment": "Приехал из Житомира (Польша). Была сестра, с которой переписывалась Федора.",
+    "sex": "M",
+    "sn": "Клепус (Клепушевский)",
+    "firstName": "Войцех",
+    "patronymic": "Валентьевич",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "spouse": [
+      { "child": { "id": "102gIdylZO" }, "id": "" },
+      { "child": { "id": "102glO3agR" }, "id": "" },
+      { "child": { "id": "102gOmorIf" }, "id": "" },
+      { "child": { "id": "102gWMqQRp" }, "id": "" },
+      { "child": { "id": "102gYA8O0n" }, "id": "" },
+      { "child": { "id": "102G1HQEOW" }, "id": "" },
+      { "child": { "id": "102GGrkuQl" }, "id": "" }
+    ],
+    "id": "102gJtBXRd"
+  },
+  {
+    "fullname": "Коновалов Тимофей",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Коновалов",
+    "firstName": "Тимофей",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "05.02.2008",
+    "spouse": [
+      { "child": { "id": "kOcP3g9xDr" }, "id": "" },
+      { "child": { "id": "kOcPcbM0FV" }, "id": "" },
+      { "child": { "id": "kOcPEXXiJ5" }, "id": "" },
+      { "child": { "id": "h8fV4lHtes" }, "id": "" }
+    ],
+    "id": "h8fwjUw3DH"
+  },
+  {
+    "fullname": "Константинов Нестер",
+    "sex": "M",
+    "fam": "Константиновы",
+    "sn": "Константинов",
+    "firstName": "Нестер",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.01.2015",
+    "spouse": [
+      { "child": { "id": "102gdP3lsL" }, "id": "" },
+      { "child": { "id": "12YGtI1kvD" }, "id": "" }
+    ],
+    "id": "12YGSrvqSf"
+  },
+  {
+    "fullname": "Макеева Инна",
+    "alive": "T",
+    "sex": "F",
+    "sn": "Макеева",
+    "firstName": "Инна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "09.01.2015",
+    "de": "09.01.2015",
+    "spouse": [
+      {
+        "child": [{ "id": "12ygIET1cy" }, { "id": "12ygiWVB5V" }],
+        "marriage": {},
+        "id": "12ygFEMh9F"
+      },
+      { "child": { "id": "12ygXjhDS8" }, "id": "" },
+      { "child": { "id": "12ygYaNVXS" }, "id": "" }
+    ],
+    "id": "12ygK1IDRO"
+  },
+  {
+    "fullname": "Назин Матвей",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Назин",
+    "firstName": "Матвей",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "spouse": [
+      { "child": { "id": "MHEKw1gwIP" }, "id": "" },
+      { "child": { "id": "MHElG1K7Wa" }, "id": "" },
+      { "child": { "id": "MHElrRUY2S" }, "id": "" },
+      { "child": { "id": "MHEhw5EQE8" }, "id": "" }
+    ],
+    "id": "MHEK3J55Z1"
+  },
+  {
+    "fullname": "Наум",
+    "sex": "M",
+    "dfdate": 1944,
+    "firstName": "Наум",
+    "dyear": 1944,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "07.04.2009",
+    "dfdateGED": 1944,
+    "spouse": [
+      { "child": { "id": "ktgxTvBSxi" }, "id": "" },
+      { "child": { "id": "K1FO4vUAvU" }, "id": "" }
+    ],
+    "id": "K1FoVMSaB3"
+  },
+  {
+    "fullname": "Рудых ...",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Рудых",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "14.03.2009",
+    "de": "03.01.2010",
+    "spouse": [
+      { "child": { "id": "h8F0Msj1Ju" }, "id": "" },
+      { "child": { "id": "kOcruqsHB0" }, "id": "" }
+    ],
+    "id": "kOcrqkaSQf"
+  },
+  {
+    "fullname": "Рычков Федот",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Рычков",
+    "firstName": "Федот",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.03.2009",
+    "spouse": [
+      { "child": { "id": "kog4xd1FKu" }, "id": "" },
+      { "child": { "id": "kmFyu9aGbS" }, "id": "" }
+    ],
+    "id": "kog4MkKfNd"
+  },
+  {
+    "fullname": "Фадеев Трофим",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Фадеев",
+    "firstName": "Трофим",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "spouse": [
+      { "child": { "id": "MHeVQhFzWv" }, "id": "" },
+      { "child": { "id": "MHeVXYKAQk" }, "id": "" },
+      { "child": { "id": "MHewbqlXtS" }, "id": "" },
+      { "child": { "id": "MHenaKlRG1" }, "id": "" }
+    ],
+    "id": "MHeVGlFCgr"
+  },
+  {
+    "fullname": "Шумаков ...",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Шумаков",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "spouse": [
+      { "child": { "id": "MHEId54wnW" }, "id": "" },
+      { "child": { "id": "MHEJByWhsh" }, "id": "" },
+      { "child": { "id": "MHEJGek639" }, "id": "" }
+    ],
+    "id": "MHEjThnqno"
+  },
+  {
+    "fullname": "Юсупов Гимай",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Юсупов",
+    "firstName": "Гимай",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "spouse": [
+      { "child": { "id": "MhdiVG1PSv" }, "id": "" },
+      { "child": { "id": "MhdIAsfw38" }, "id": "" },
+      { "child": { "id": "MhdFExovmC" }, "id": "" }
+    ],
+    "id": "MhdiKjla0V"
+  }
+]

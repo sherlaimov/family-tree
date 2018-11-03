@@ -1,0 +1,1391 @@
+[
+  {
+    "fullname": "(Большедворская) Вероника Георгиевна",
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Большедворская",
+    "firstName": "Вероника",
+    "patronymic": "Георгиевна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "23.03.2009",
+    "father": { "id": "ktgphvEYTF" },
+    "mother": { "id": "h7giqFRk0E" },
+    "spouse": [
+      { "child": { "id": "ktgrXdX6Zw" }, "id": "" },
+      { "child": { "id": "ktgR8VtWQB" }, "id": "" }
+    ],
+    "id": "ktgDtJo5BY"
+  },
+  {
+    "fullname": "(Винокурова) Татьяна Валерьевна",
+    "birthDate": "18.05.1963",
+    "age": 52,
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Винокурова",
+    "firstName": "Татьяна",
+    "patronymic": "Валерьевна",
+    "byear": 1963,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "bfdateGED": "18 MAY 1963",
+    "spouse": [
+      { "marriage": {}, "child": { "id": "MHe6M2k8wE" }, "id": "MHe37NygLZ" },
+      { "child": { "id": "MHe5sHdBAU" }, "id": "" }
+    ],
+    "id": "MHe4gBdqoQ"
+  },
+  {
+    "fullname": "(Коновалова) Марина Юрьевна",
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Коновалова",
+    "firstName": "Марина",
+    "patronymic": "Юрьевна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "14.03.2009",
+    "father": { "id": "h8fwv760rE" },
+    "mother": { "id": "kOccBH98ND" },
+    "spouse": [
+      { "child": { "id": "kOcCUQ9v5E" }, "id": "" },
+      { "child": { "id": "kOcd65n9cJ" }, "id": "" }
+    ],
+    "id": "kOccXhDWrr"
+  },
+  {
+    "fullname": "(Кутенкова) Елена Михайловна",
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Кутенкова",
+    "firstName": "Елена",
+    "patronymic": "Михайловна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "father": { "id": "MhdWefX1B8" },
+    "mother": { "id": "MhdwLtRgdw" },
+    "spouse": [
+      { "child": { "id": "Mhdx0m4Hq3" }, "id": "" },
+      { "child": { "id": "MhdxBBRs2b" }, "id": "" }
+    ],
+    "id": "MhdWq9bdSI"
+  },
+  {
+    "fullname": "(Май (Солодкина)) Людмила Александровна",
+    "birthDate": "12.11.1954",
+    "age": 61,
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Май (Солодкина)",
+    "firstName": "Людмила",
+    "patronymic": "Александровна",
+    "byear": 1954,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "bfdateGED": "12 NOV 1954",
+    "spouse": [
+      { "marriage": {}, "child": { "id": "MHeIwV39DI" }, "id": "MHehVeevpj" },
+      { "child": { "id": "MHeIDGWBDR" }, "id": "" }
+    ],
+    "id": "MHei6jEhKd"
+  },
+  {
+    "fullname": "(Миронова) Екатерина Валерьевна",
+    "birthDate": "03.01.?",
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Миронова",
+    "firstName": "Екатерина",
+    "patronymic": "Валерьевна",
+    "byear": "?",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "bfdateGED": "3 JAN",
+    "father": { "id": "MhdkGwssnb" },
+    "mother": { "id": "MhdK84C24i" },
+    "spouse": [
+      { "marriage": {}, "id": "MhdmoL2Esf" },
+      { "child": { "id": "Mhdm1WnGy9" }, "marriage": {}, "id": "MhdLentbrs" }
+    ],
+    "id": "MhdlGCUQA6"
+  },
+  {
+    "fullname": "(Миронова) Ольга Валерьевна",
+    "birthDate": "06.07.1975",
+    "age": 40,
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Миронова",
+    "firstName": "Ольга",
+    "patronymic": "Валерьевна",
+    "byear": 1975,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "bfdateGED": "6 JUL 1975",
+    "father": { "id": "MhdkGwssnb" },
+    "mother": { "id": "MhdK84C24i" },
+    "spouse": [
+      { "child": { "id": "MhdnQmX0z7" }, "marriage": {}, "id": "MhdnglXuWy" },
+      { "child": { "id": "Mhdn5KN7YY" }, "marriage": {}, "id": "MhdMUIBboZ" }
+    ],
+    "id": "MhdMdNLyFR"
+  },
+  {
+    "fullname": "(Шерлаимова) Анфиса Ивановна",
+    "sex": "F",
+    "lastName": "Шерлаимова",
+    "firstName": "Анфиса",
+    "patronymic": "Ивановна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "23.03.2009",
+    "father": { "id": "h7gH2331Lk" },
+    "mother": { "id": "h7gHIDDsTC" },
+    "spouse": [
+      { "marriage": {}, "child": { "id": "ktGDYPQZFy" }, "id": "ktGDRfFCL4" },
+      { "marriage": {}, "id": "ktGEdlm03q" }
+    ],
+    "id": "ktFUfN1x3F"
+  },
+  {
+    "fullname": "(Шерлаимова) Наталья Александровна",
+    "birthDate": 1954,
+    "age": 62,
+    "alive": "T",
+    "sex": "F",
+    "lastName": "Шерлаимова",
+    "firstName": "Наталья",
+    "patronymic": "Александровна",
+    "byear": 1954,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "23.03.2009",
+    "de": "10.02.2011",
+    "bfdateGED": 1954,
+    "father": { "id": "ktGn0OdSLB" },
+    "mother": { "id": "PWCvMs9VAG" },
+    "spouse": [
+      { "child": { "id": "PWCyr5QrM3" }, "id": "" },
+      { "child": { "id": "PWCxG41Dmv" }, "id": "" }
+    ],
+    "id": "ktGNrWtMTp"
+  },
+  {
+    "fullname": "...",
+    "alive": "T",
+    "sex": "M",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.03.2009",
+    "spouse": [
+      { "child": { "id": "h8fOcHJlc7" }, "id": "" },
+      { "child": { "id": "koFHOycbrw" }, "id": "" },
+      { "child": { "id": "kOC2uziFx7" }, "id": "" },
+      { "child": { "id": "kOC3a16TLH" }, "id": "" }
+    ],
+    "id": "koFHJbJwMZ"
+  },
+  {
+    "fullname": "...",
+    "sex": "M",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.01.2015",
+    "de": "10.01.2015",
+    "spouse": [
+      { "child": { "id": "12YGvTlmEJ" }, "id": "" },
+      { "child": { "id": "12YGw0xAp2" }, "id": "" }
+    ],
+    "id": "12YGVrUp6m"
+  },
+  {
+    "fullname": "Андрюха Екатерина Ивановна",
+    "alive": "T",
+    "sex": "F",
+    "sn": "Андрюха",
+    "firstName": "Екатерина",
+    "patronymic": "Ивановна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "father": { "id": "h7gCp1WsYw" },
+    "mother": { "id": "h7gdFIF87t" },
+    "spouse": [
+      { "child": { "id": "kpEId6mCml" }, "id": "" },
+      { "child": { "id": "kpEIgmoKFT" }, "id": "" }
+    ],
+    "id": "h7gdUBRmfT"
+  },
+  {
+    "fullname": "Андрюха Иван Григорьевич",
+    "birthDate": "24.02.1945",
+    "age": 71,
+    "alive": "T",
+    "sex": "M",
+    "sn": "Андрюха",
+    "firstName": "Иван",
+    "patronymic": "Григорьевич",
+    "byear": 1945,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "de": "15.03.2009",
+    "bfdateGED": "24 FEB 1945",
+    "father": { "id": "h7gcP00AWH" },
+    "mother": { "id": "h7gBQTKF5J" },
+    "spouse": [
+      { "child": { "id": "h7gDro3asH" }, "marriage": {}, "id": "h7gDilcK0N" },
+      {
+        "child": [{ "id": "h7gdUBRmfT" }, { "id": "h7gdNYyrCU" }],
+        "marriage": {},
+        "id": "h7gdFIF87t"
+      }
+    ],
+    "id": "h7gCp1WsYw"
+  },
+  {
+    "fullname": "Андрюха Петр Иванович",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Андрюха",
+    "firstName": "Петр",
+    "patronymic": "Иванович",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "de": "15.03.2009",
+    "father": { "id": "h7gCp1WsYw" },
+    "mother": { "id": "h7gdFIF87t" },
+    "spouse": [
+      { "child": { "id": "kpEIK275iU" }, "id": "" },
+      { "child": { "id": "kpEIocXgSJ" }, "id": "" }
+    ],
+    "id": "h7gdNYyrCU"
+  },
+  {
+    "fullname": "Барнашев Сергей Викторович",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Барнашев",
+    "firstName": "Сергей",
+    "patronymic": "Викторович",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "father": { "id": "MhcbYNzd9M" },
+    "mother": { "id": "MhcAcPD6s5" },
+    "spouse": [
+      { "child": { "id": "MhcfqutZlt" }, "id": "" },
+      { "child": { "id": "MhcF54JGlN" }, "id": "" },
+      { "child": { "id": "MhcFMeKNuf" }, "id": "" }
+    ],
+    "id": "MhcEwrBzOp"
+  },
+  {
+    "fullname": "Борис",
+    "alive": "T",
+    "sex": "M",
+    "firstName": "Борис",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.01.2015",
+    "spouse": [
+      { "child": { "id": "12ygMjwgOc" }, "id": "" },
+      { "child": { "id": "12YGUdxss1" }, "id": "" },
+      { "child": { "id": "12YGUJcVDG" }, "id": "" }
+    ],
+    "id": "12YGuuQw7D"
+  },
+  {
+    "fullname": "Валентина Войцеховна",
+    "comment": "Работала медсестрой на Байкальской - Волжской.",
+    "sex": "F",
+    "firstName": "Валентина",
+    "patronymic": "Войцеховна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "father": { "id": "102gJtBXRd" },
+    "spouse": [
+      { "child": { "id": "102gPBLBgR" }, "id": "" },
+      { "child": { "id": "102gPHqPkh" }, "id": "" }
+    ],
+    "id": "102gOmorIf"
+  },
+  {
+    "fullname": "Гаврилов Аркадий",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Гаврилов",
+    "firstName": "Аркадий",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "spouse": [
+      { "child": { "id": "MhdwLtRgdw" }, "id": "" },
+      { "child": { "id": "MhdXM2wv6t" }, "id": "" },
+      { "child": { "id": "PyCN8MWdRk" }, "id": "" },
+      { "child": { "id": "PyCQ7nd6I2" }, "id": "" },
+      { "child": { "id": "MhdNYN8wFN" }, "id": "" }
+    ],
+    "id": "Mhdw2BP86h"
+  },
+  {
+    "fullname": "Голышев Валентин Александрович",
+    "birthDate": "12.07.1958",
+    "comment": "Президент производственной дорожно-строительной фирмы \"Агродорспецстрой\"; родился 12 июля 1958 г. в г. Нерчинске Читинской области, из рабочих; В 1981 г. окончил Иркутский сельскохозяйственный институт; действительный член Международной академии наук (секция \"Экология\"); с 1975 по 1979 г. — ученик токаря, токарь, рабочий, электромонтер в Читинской области, в г. Иркутске; в 1981—1984 гг. — старший мастер, и. о. начальника ЖЭУ, г. Иркутск; в 1984—1985 гг. — электрик, электромонтер, г. Шелехов Иркутской области; в 1985—1988 гг. — электрик старательской артели \"Уром\", Читинская область; с 1988 г. — вице-президент, с 1993 г. — президент производственной дорожно-строительной фирмы \"Агродорспецстрой\"; заслуженный строитель РФ (1998); кавалер ордена \"За заслуги перед Отечеством\" II степени (1998); награжден Православной Церковью орденом Святого Равноапостольного Князя Владимира (1998).",
+    "sex": "M",
+    "lifespan": 55,
+    "dfdate": "14.02.2014",
+    "sn": "Голышев",
+    "firstName": "Валентин",
+    "patronymic": "Александрович",
+    "byear": 1958,
+    "dyear": 2014,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "de": "10.01.2015",
+    "bfdateGED": "12 JUL 1958",
+    "dfdateGED": "14 FEB 2014",
+    "father": { "id": "12YGvAw7Na" },
+    "mother": { "id": "12YGvTlmEJ" },
+    "spouse": [
+      { "child": { "id": "12YGYiPUDM" }, "id": "" },
+      { "child": { "id": "102FQJrNcz" }, "id": "102FWkv3So" },
+      { "child": { "id": "12YGWlRy9J" }, "id": "" },
+      { "child": { "id": "12YGyrW7Rt" }, "id": "" },
+      { "child": { "id": "12z03uLf2f" }, "id": "" },
+      { "child": { "id": "12z04ecrub" }, "id": "" }
+    ],
+    "id": "102FYIRz8T"
+  },
+  {
+    "fullname": "Игнатьев Николай Иосифович",
+    "comment": "Николай Иосифович Игнатьев\r\n\r\nПредседатель правления фонда духовного возрождения Прибайкалья. Занимался спортом: мастер спорта по самбо, чемпион области. \r\nНиколай Иосифович закончил Иркутский медицинский институт и Московскую юридическую академию, работает над диссертацией по социологии на стыке наук. Знаком со многими известными людьми: Владислав Листьев - телеведущий, Владимир Гуркин - драматург, Геннадий Гайда – поэт, Москвитин – художник, Доши Намдаков - скульптор, отец Евегений и др. Оказалось, что Николай в медицинском институте учился в одной группе с Куликом, отличившимся своей жестокостью. \r\nНиколай Иосифович в 2003г был в Видеево и участвовал в восстановлении богородичной канавки в монастыре к 100-летию канонизации Серафима Саровского.",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Игнатьев",
+    "firstName": "Николай",
+    "patronymic": "Иосифович",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.03.2009",
+    "father": { "id": "koEbT9kLPz" },
+    "mother": { "id": "koEAy4PguD" },
+    "spouse": [
+      { "child": { "id": "koECXvfRv9" }, "id": "" },
+      { "child": { "id": "koEdfoNkG5" }, "id": "" }
+    ],
+    "id": "koEBqlPBnS"
+  },
+  {
+    "fullname": "Игнатьев Павел Иосифович",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Игнатьев",
+    "firstName": "Павел",
+    "patronymic": "Иосифович",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "14.03.2009",
+    "father": { "id": "koEbT9kLPz" },
+    "mother": { "id": "koEAy4PguD" },
+    "spouse": [
+      { "marriage": {}, "child": { "id": "kOcyNJSEzk" }, "id": "kOcy4kj7bU" },
+      { "marriage": {}, "id": "kOcYh335wt" }
+    ],
+    "id": "kOcXBedu8p"
+  },
+  {
+    "fullname": "Ирина Вадимовна",
+    "alive": "T",
+    "sex": "F",
+    "firstName": "Ирина",
+    "patronymic": "Вадимовна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "24.03.2009",
+    "father": { "id": "kTfvb5M4lg" },
+    "spouse": [
+      { "child": { "id": "kTfvxUdNbT" }, "id": "" },
+      { "child": { "id": "kTfV81UxES" }, "id": "" }
+    ],
+    "id": "kTfvPO2fHX"
+  },
+  {
+    "fullname": "Казанцева (Шерлаимова) Степанида Леонтьевна",
+    "sex": "F",
+    "sn": "Казанцева",
+    "lastName": "Шерлаимова",
+    "firstName": "Степанида",
+    "patronymic": "Леонтьевна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "07.01.2013",
+    "father": { "id": "ktF0gJDIYD" },
+    "mother": { "id": "ktF1OiRsi2" },
+    "spouse": [
+      { "child": { "id": "V86QKXZh5O" }, "id": "" },
+      { "child": { "id": "V86rbPu3Ma" }, "id": "" },
+      { "child": { "id": "V86rIrEmZ6" }, "id": "" }
+    ],
+    "id": "V86qHJJeQq"
+  },
+  {
+    "fullname": "Камынин Юрий  Михайлович",
+    "birthDate": "17.06.1949",
+    "age": 66,
+    "comment": "634063 Томск, ул. С-Лазо 21-71",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Камынин",
+    "firstName": "Юрий",
+    "patronymic": "Михайлович",
+    "byear": 1949,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "bfdateGED": "17 JUN 1949",
+    "father": { "id": "MHDRluMxTi" },
+    "mother": { "id": "MHDQuXda3y" },
+    "spouse": [
+      { "marriage": {}, "id": "MHeDc1jCnO" },
+      { "child": { "id": "MHeFGbZmAv" }, "id": "" },
+      { "marriage": {}, "id": "MHed2FWgEg" },
+      { "child": { "id": "MHefYY8mMZ" }, "id": "" }
+    ],
+    "id": "MHec6rPaQi"
+  },
+  {
+    "fullname": "Клепус (Клепушевский) Войцех Валентьевич",
+    "comment": "Приехал из Житомира (Польша). Была сестра, с которой переписывалась Федора.",
+    "sex": "M",
+    "sn": "Клепус (Клепушевский)",
+    "firstName": "Войцех",
+    "patronymic": "Валентьевич",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "spouse": [
+      { "child": { "id": "102gIdylZO" }, "id": "" },
+      { "child": { "id": "102glO3agR" }, "id": "" },
+      { "child": { "id": "102gOmorIf" }, "id": "" },
+      { "child": { "id": "102gWMqQRp" }, "id": "" },
+      { "child": { "id": "102gYA8O0n" }, "id": "" },
+      { "child": { "id": "102G1HQEOW" }, "id": "" },
+      { "child": { "id": "102GGrkuQl" }, "id": "" }
+    ],
+    "id": "102gJtBXRd"
+  },
+  {
+    "fullname": "Клепус Анатолий Дмитриевич",
+    "comment": "Живет в Родищево или в Гласково (там ему тетя отдала квартиру), г. Иркутска. В Родищево у него дом, рядом с кладбищем.",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Клепус",
+    "firstName": "Анатолий",
+    "patronymic": "Дмитриевич",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "father": { "id": "102G36EbUs" },
+    "spouse": [
+      { "child": { "id": "102GAG9hQh" }, "id": "" },
+      { "child": { "id": "102GAow9ts" }, "id": "" }
+    ],
+    "id": "102G96fyNX"
+  },
+  {
+    "fullname": "Клепус Георгий Войцехович",
+    "comment": "Умер в возрасте около 85 лет. У него были дочери двойняшки.",
+    "sex": "M",
+    "sn": "Клепус",
+    "firstName": "Георгий",
+    "patronymic": "Войцехович",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "father": { "id": "102gJtBXRd" },
+    "spouse": [
+      { "child": { "id": "102GHjX4A9" }, "id": "" },
+      { "child": { "id": "102GJdiL4o" }, "id": "" }
+    ],
+    "id": "102GGrkuQl"
+  },
+  {
+    "fullname": "Клепус Дмитрий",
+    "comment": "Умер в 2010-х. Было 91 год. Жил в Рабочем, г. Иркутска. Работал крановщиком в речном порту.",
+    "sex": "M",
+    "sn": "Клепус",
+    "firstName": "Дмитрий",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "father": { "id": "102G1HQEOW" },
+    "spouse": [
+      { "child": { "id": "102G5UxKqp" }, "id": "" },
+      { "child": { "id": "102G96fyNX" }, "id": "" }
+    ],
+    "id": "102G36EbUs"
+  },
+  {
+    "fullname": "Клепус Ким",
+    "comment": "Ким - Коммунистический Интернационал Молодежи. Работал геологом.",
+    "sex": "M",
+    "sn": "Клепус",
+    "firstName": "Ким",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "father": { "id": "102G1HQEOW" },
+    "spouse": [
+      { "child": { "id": "102GFho3ih" }, "id": "" },
+      { "child": { "id": "102GgcqotO" }, "id": "" }
+    ],
+    "id": "102GfFi1W3"
+  },
+  {
+    "fullname": "Клепус Николай Дмитриевич",
+    "comment": "Работал шофером на автолавке (грузовике). Умер в 2010-х. Было под 80-90 лет.",
+    "sex": "M",
+    "dfdate": 2010,
+    "sn": "Клепус",
+    "firstName": "Николай",
+    "patronymic": "Дмитриевич",
+    "dyear": 2010,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "dfdateGED": 2010,
+    "father": { "id": "102glO3agR" },
+    "spouse": [
+      { "child": { "id": "102gn2oMRL" }, "id": "" },
+      { "child": { "id": "102gNin6Lg" }, "id": "" }
+    ],
+    "id": "102gLU70ZS"
+  },
+  {
+    "fullname": "Клепус Павел Войцехович",
+    "comment": "Умер рано.",
+    "sex": "M",
+    "sn": "Клепус",
+    "firstName": "Павел",
+    "patronymic": "Войцехович",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "father": { "id": "102gJtBXRd" },
+    "spouse": [
+      { "child": { "id": "102G36EbUs" }, "id": "" },
+      { "child": { "id": "102Gcc6bAb" }, "id": "" },
+      { "child": { "id": "102GdpS9L7" }, "id": "" },
+      { "child": { "id": "102GeMb4pS" }, "id": "" },
+      { "child": { "id": "102GfFi1W3" }, "id": "" }
+    ],
+    "id": "102G1HQEOW"
+  },
+  {
+    "fullname": "Коновалов Тимофей",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Коновалов",
+    "firstName": "Тимофей",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "05.02.2008",
+    "spouse": [
+      { "child": { "id": "kOcP3g9xDr" }, "id": "" },
+      { "child": { "id": "kOcPcbM0FV" }, "id": "" },
+      { "child": { "id": "kOcPEXXiJ5" }, "id": "" },
+      { "child": { "id": "h8fV4lHtes" }, "id": "" }
+    ],
+    "id": "h8fwjUw3DH"
+  },
+  {
+    "fullname": "Константинов Нестер",
+    "sex": "M",
+    "fam": "Константиновы",
+    "sn": "Константинов",
+    "firstName": "Нестер",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "10.01.2015",
+    "spouse": [
+      { "child": { "id": "102gdP3lsL" }, "id": "" },
+      { "child": { "id": "12YGtI1kvD" }, "id": "" }
+    ],
+    "id": "12YGSrvqSf"
+  },
+  {
+    "fullname": "Константинова Ирина Васильевна",
+    "birthDate": "16.09.1948",
+    "sex": "F",
+    "lifespan": 63,
+    "dfdate": "27.09.2011",
+    "sn": "Константинова",
+    "firstName": "Ирина",
+    "patronymic": "Васильевна",
+    "byear": 1948,
+    "dyear": 2011,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "de": "13.07.2014",
+    "bfdateGED": "16 SEP 1948",
+    "dfdateGED": "27 SEP 2011",
+    "father": { "id": "102gdP3lsL" },
+    "mother": { "id": "102g3Du1HU" },
+    "spouse": [
+      { "child": { "id": "12ygFEMh9F" }, "id": "" },
+      { "child": { "id": "12yFT91KQu" }, "id": "" },
+      { "child": { "id": "102FQJrNcz" }, "id": "102FYIRz8T" }
+    ],
+    "id": "102FWkv3So"
+  },
+  {
+    "fullname": "Куликов Анатолий Макарович",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Куликов",
+    "firstName": "Анатолий",
+    "patronymic": "Макарович",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "father": { "id": "h7FEgzC7Kd" },
+    "mother": { "id": "h7FEpMm8nq" },
+    "spouse": [
+      { "child": { "id": "h7Fxb2ukBR" }, "id": "" },
+      { "child": { "id": "h7Fxl4H4zc" }, "id": "" }
+    ],
+    "id": "h7FWs6esRk"
+  },
+  {
+    "fullname": "Куликов Вадим Иванович",
+    "birthDate": "20.06.1959",
+    "pl_full": "Россия, г. Иркутск",
+    "age": 56,
+    "occu": "горный инженер-обогатитель",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Куликов",
+    "firstName": "Вадим",
+    "patronymic": "Иванович",
+    "byear": 1959,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "de": "14.03.2009",
+    "bfdateGED": "20 JUN 1959",
+    "father": { "id": "h7fshphvlc" },
+    "mother": { "id": "h7fsSQGn8S" },
+    "spouse": [
+      { "marriage": {}, "id": "h7FX0hdfWb" },
+      { "child": [{ "id": "h7F0OPp2jm" }, { "id": "h7fk24I0wY" }], "id": "h7foc62Heh" }
+    ],
+    "id": "h7fNQFBzqY"
+  },
+  {
+    "fullname": "Куликова Мария Макаровна",
+    "birthDate": "03.09.1919",
+    "sex": "F",
+    "sn": "Куликова",
+    "firstName": "Мария",
+    "patronymic": "Макаровна",
+    "byear": 1919,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "de": "18.02.2014",
+    "bfdateGED": "3 SEP 1919",
+    "father": { "id": "h7FEgzC7Kd" },
+    "mother": { "id": "h7FEpMm8nq" },
+    "spouse": [
+      { "child": { "id": "h7FUxSljZ0" }, "id": "" },
+      { "child": { "id": "h7FU5rc2G6" }, "id": "" }
+    ],
+    "id": "h7Funs8V5Y"
+  },
+  {
+    "fullname": "Кутенкова Людмила Аркадьевна",
+    "alive": "T",
+    "sex": "F",
+    "sn": "Кутенкова",
+    "firstName": "Людмила",
+    "patronymic": "Аркадьевна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "father": { "id": "Mhdw2BP86h" },
+    "spouse": [
+      {
+        "marriage": {},
+        "child": [{ "id": "MhdWq9bdSI" }, { "id": "MhdxJRFm6q" }],
+        "id": "MhdWefX1B8"
+      },
+      { "marriage": {}, "child": { "id": "MhdXa7n3Rc" }, "id": "MhdxQ3d4ED" }
+    ],
+    "id": "MhdwLtRgdw"
+  },
+  {
+    "fullname": "Лидия",
+    "alive": "T",
+    "sex": "F",
+    "firstName": "Лидия",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "father": { "id": "MHERJNKC7O" },
+    "mother": { "id": "MHEsaQuJte" },
+    "spouse": [
+      { "child": { "id": "MHEtKSHcgz" }, "id": "" },
+      { "child": { "id": "MHEtwHzIJ2" }, "id": "" }
+    ],
+    "id": "MHEtC0kTm3"
+  },
+  {
+    "fullname": "Лысик (Шерлаимова) Татьяна Сергеевна",
+    "birthDate": "21.01.1909",
+    "sex": "F",
+    "bplace": "Россия, г. Хабаровск",
+    "lifespan": 88,
+    "dfdate": "21.01.1997",
+    "dplace": "США, г. Сан Франциско",
+    "sn": "Лысик",
+    "lastName": "Шерлаимова",
+    "firstName": "Татьяна",
+    "patronymic": "Сергеевна",
+    "byear": 1909,
+    "dyear": 1997,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.11.2012",
+    "de": "18.02.2013",
+    "bfdateGED": "21 JAN 1909",
+    "dfdateGED": "21 JAN 1997",
+    "father": { "id": "kwDd0Qlnqq" },
+    "mother": { "id": "v56AXBGkw9" },
+    "spouse": [{ "marriage": {}, "id": "Vt4WHtPg26" }, { "marriage": {}, "id": "Vt4W36cEyb" }],
+    "id": "v56aSPaHLF"
+  },
+  {
+    "fullname": "Макеев Андрей Васильевич",
+    "birthDate": "05.06.1967",
+    "age": 48,
+    "alive": "T",
+    "sex": "M",
+    "sn": "Макеев",
+    "firstName": "Андрей",
+    "patronymic": "Васильевич",
+    "byear": 1967,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "09.01.2015",
+    "de": "09.01.2015",
+    "bfdateGED": "5 JUN 1967",
+    "mother": { "id": "102FWkv3So" },
+    "spouse": [
+      {
+        "child": [{ "id": "12ygIET1cy" }, { "id": "12ygiWVB5V" }],
+        "marriage": {},
+        "id": "12ygK1IDRO"
+      },
+      { "child": { "id": "12yghE0LDQ" }, "id": "12YGlBCzPK" },
+      { "child": [{ "id": "12ygHDrkrU" }, { "id": "12ygi0WiJq" }], "id": "12YGGsj7Zg" }
+    ],
+    "id": "12ygFEMh9F"
+  },
+  {
+    "fullname": "Макеева Инна",
+    "alive": "T",
+    "sex": "F",
+    "sn": "Макеева",
+    "firstName": "Инна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "09.01.2015",
+    "de": "09.01.2015",
+    "spouse": [
+      {
+        "child": [{ "id": "12ygIET1cy" }, { "id": "12ygiWVB5V" }],
+        "marriage": {},
+        "id": "12ygFEMh9F"
+      },
+      { "child": { "id": "12ygXjhDS8" }, "id": "" },
+      { "child": { "id": "12ygYaNVXS" }, "id": "" }
+    ],
+    "id": "12ygK1IDRO"
+  },
+  {
+    "fullname": "Мария Георгиевна",
+    "comment": "Работает продавцом. Живет в Москве много лет. Жила в Ангарске, при Брежневе уехала в Москву.",
+    "alive": "T",
+    "sex": "F",
+    "firstName": "Мария",
+    "patronymic": "Георгиевна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "de": "13.07.2014",
+    "father": { "id": "102GGrkuQl" },
+    "spouse": [
+      { "child": { "id": "102GIdkWSk" }, "id": "" },
+      { "child": { "id": "102GIhwVp3" }, "id": "" }
+    ],
+    "id": "102GHjX4A9"
+  },
+  {
+    "fullname": "Назин Матвей",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Назин",
+    "firstName": "Матвей",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "spouse": [
+      { "child": { "id": "MHEKw1gwIP" }, "id": "" },
+      { "child": { "id": "MHElG1K7Wa" }, "id": "" },
+      { "child": { "id": "MHElrRUY2S" }, "id": "" },
+      { "child": { "id": "MHEhw5EQE8" }, "id": "" }
+    ],
+    "id": "MHEK3J55Z1"
+  },
+  {
+    "fullname": "Наум",
+    "sex": "M",
+    "dfdate": 1944,
+    "firstName": "Наум",
+    "dyear": 1944,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "07.04.2009",
+    "dfdateGED": 1944,
+    "spouse": [
+      { "child": { "id": "ktgxTvBSxi" }, "id": "" },
+      { "child": { "id": "K1FO4vUAvU" }, "id": "" }
+    ],
+    "id": "K1FoVMSaB3"
+  },
+  {
+    "fullname": "Полканов Федор",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Полканов",
+    "firstName": "Федор",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "23.03.2009",
+    "father": { "id": "ktGDRfFCL4" },
+    "mother": { "id": "ktFUfN1x3F" },
+    "spouse": [
+      { "child": { "id": "ktGfUyVJ91" }, "id": "" },
+      { "child": { "id": "ktGfXY9SR2" }, "id": "" },
+      { "child": { "id": "ktGF4ePcRk" }, "id": "" }
+    ],
+    "id": "ktGDYPQZFy"
+  },
+  {
+    "fullname": "Редрова (Шерлаимова) Людмила Ивановна",
+    "birthDate": 1889,
+    "sex": "F",
+    "lifespan": 95,
+    "dfdate": "14.12.1984",
+    "sn": "Редрова",
+    "lastName": "Шерлаимова",
+    "firstName": "Людмила",
+    "patronymic": "Ивановна",
+    "byear": 1889,
+    "dyear": 1984,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "de": "04.01.2010",
+    "bfdateGED": 1889,
+    "dfdateGED": "14 DEC 1984",
+    "father": { "id": "h7gH2331Lk" },
+    "mother": { "id": "h7gHIDDsTC" },
+    "spouse": [
+      { "marriage": {}, "id": "ktgmWxFXTC" },
+      {
+        "child": [{ "id": "h7gBQTKF5J" }, { "id": "h7ga3f9se1" }, { "id": "h7fsSQGn8S" }],
+        "id": "h7FYBLsW0o"
+      }
+    ],
+    "id": "h7g7Ddp52j"
+  },
+  {
+    "fullname": "Рудых ...",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Рудых",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "14.03.2009",
+    "de": "03.01.2010",
+    "spouse": [
+      { "child": { "id": "h8F0Msj1Ju" }, "id": "" },
+      { "child": { "id": "kOcruqsHB0" }, "id": "" }
+    ],
+    "id": "kOcrqkaSQf"
+  },
+  {
+    "fullname": "Рычков Николай Павлович",
+    "comment": "Николай Павлович Рычков\r\n\r\nЧеловек невероятной силы. На свадьбе у сестры Любовь Павловны в 1947г для родственников на память сделал подарок – закрутил две вилки вокруг оси на 180°, так что на них рисунок вьюнком стал. Спустя 25 лет на серебряной свадьбе Любови в 1972г на глазах тех же гостей, он берет опять эти вилки и назад разворачивает одну в обратную строну. Брат Михаил подарил Николаю ложку с надписью «Коле от Миши на память» (20 годы). Эти вилки и ложка хранится до сих пор. \r\nВ иркутском цирке была труппа силовых акробатов из четырех человек, которая называлась «РЕАН» (Рычков, Емельянов, …, Николаев). Эта труппа выступала по всему Советскому Союзу, республикам, на Кавказе, в Чите, в Воронеже, в Орле, в Курске, в Баку. Николай Павлович был невероятно здоровый, крупный мужчина, выступал в цирке и снимался в кинофильме «Цирк». Был знаком с Любовью Орловой, танцевал с ней. В фильме «Цирк» есть такой фрагмент: акробаты выбегают на арену, где есть пьедестал сделанный из оргстекла, и на этом пьедестале один на другом встают четыре человека, так Николай был нижним, он держал три человека на себе. К сожалению,  этот фрагмент в фильме усечен. \r\nНиколай Павлович был на третьем – четвертом месте по Советскому Союзу по поднятию тяжестей, он 19 лет подряд до самой войны был на первом месте по поднятию тяжестей в Иркутской области, никто не мог его перекинуть. Это были очень жесткие силовые упражнения. \r\nНачалась война, и Николай Павлович ушел в армию. Прошёл всю войну. Так как он был высококлассным спортсменом, то сопровождал Сибирские дивизии лыжников. Он вел на лыжах Иркутских лыжников до Москвы. Один раз был ранен, будучи в госпитале ему давали отпуск. В 1943г у Николая родился сын Павел, который тоже стал спортсменом в разных видах: хоккей,  футбол, любые игровые виды спорта, мастер спорта по самбо и вольной борьбе. Служил  в одной роте (взводе) десантных войск с Виктором Куренцовым в 1964г (победитель олимпийских игр в Токио 1964г). По возвращению из армии Павел Николаевич стал жить в Синигории и создал там, на горе Пионерской первую в Советском Союзе лыжную трассу, оборудовал её подъемниками. Сейчас Павел Николаевич живет в Липецке.",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Рычков",
+    "firstName": "Николай",
+    "patronymic": "Павлович",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.03.2009",
+    "father": { "id": "kmFyu9aGbS" },
+    "mother": { "id": "kmg2IfQpQH" },
+    "spouse": [
+      { "marriage": {}, "child": { "id": "koF5mzWwKj" }, "id": "koF4XZmYiP" },
+      { "marriage": {}, "child": { "id": "koF89CXIwV" }, "id": "koF6aqFZGn" }
+    ],
+    "id": "koF11GwYaR"
+  },
+  {
+    "fullname": "Рычков Павел Федотович",
+    "birthDate": 1870,
+    "sex": "M",
+    "lifespan": 68,
+    "dfdate": 1938,
+    "sn": "Рычков",
+    "firstName": "Павел",
+    "patronymic": "Федотович",
+    "byear": 1870,
+    "dyear": 1938,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "09.03.2009",
+    "de": "13.03.2009",
+    "bfdateGED": 1870,
+    "dfdateGED": 1938,
+    "father": { "id": "kog4MkKfNd" },
+    "spouse": [
+      {
+        "child": [
+          { "id": "koF11GwYaR" },
+          { "id": "koEQodvgQH" },
+          { "id": "kmg4yyBPid" },
+          { "id": "h7gl9B47mE" }
+        ],
+        "marriage": {},
+        "id": "kmg2IfQpQH"
+      },
+      {
+        "child": [{ "id": "koEAy4PguD" }, { "id": "koEAA3QSSS" }],
+        "marriage": {},
+        "id": "koE3gnT449"
+      }
+    ],
+    "id": "kmFyu9aGbS"
+  },
+  {
+    "fullname": "Рычков Федот",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Рычков",
+    "firstName": "Федот",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.03.2009",
+    "spouse": [
+      { "child": { "id": "kog4xd1FKu" }, "id": "" },
+      { "child": { "id": "kmFyu9aGbS" }, "id": "" }
+    ],
+    "id": "kog4MkKfNd"
+  },
+  {
+    "fullname": "Соколов Евгений Васильевич",
+    "birthDate": 1926,
+    "sex": "M",
+    "lifespan": 71,
+    "dfdate": 5.1997,
+    "sn": "Соколов",
+    "firstName": "Евгений",
+    "patronymic": "Васильевич",
+    "byear": 1926,
+    "dyear": 1997,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "05.02.2008",
+    "de": "13.03.2009",
+    "bfdateGED": 1926,
+    "dfdateGED": "MAY 1997",
+    "father": { "id": "h7gKdsl1d5" },
+    "mother": { "id": "h7gl9B47mE" },
+    "spouse": [
+      { "marriage": {}, "id": "koFEJB3esW" },
+      {
+        "child": [{ "id": "h8fOrS8aQ1" }, { "id": "h8fQc8v46n" }],
+        "marriage": {},
+        "id": "h8fOcHJlc7"
+      }
+    ],
+    "id": "h8foOwEtAj"
+  },
+  {
+    "fullname": "Соколова  Евгения Сергеевна",
+    "alive": "T",
+    "sex": "F",
+    "sn": "Соколова",
+    "firstName": "Евгения",
+    "patronymic": "Сергеевна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "05.02.2008",
+    "father": { "id": "h8fOrS8aQ1" },
+    "mother": { "id": "h8fpE9gaDq" },
+    "spouse": [
+      { "child": { "id": "h8fqFWxHYA" }, "id": "" },
+      { "child": { "id": "h8fqKidd9q" }, "id": "" }
+    ],
+    "id": "h8fPwZLGbP"
+  },
+  {
+    "fullname": "Соколова  Людмила Евгеньевна",
+    "birthDate": "26.01.1959",
+    "age": 57,
+    "alive": "T",
+    "sex": "F",
+    "sn": "Соколова",
+    "firstName": "Людмила",
+    "patronymic": "Евгеньевна",
+    "byear": 1959,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "05.02.2008",
+    "de": "14.03.2009",
+    "bfdateGED": "26 JAN 1959",
+    "father": { "id": "h8foOwEtAj" },
+    "mother": { "id": "h8fOcHJlc7" },
+    "spouse": [
+      {
+        "child": [{ "id": "h8fSW22AeL" }, { "id": "h8fsJIo4zo" }],
+        "marriage": {},
+        "id": "h8fRs5tWLX"
+      },
+      { "child": { "id": "h8frm8n6SS" }, "marriage": {}, "id": "h8fr81JOTS" }
+    ],
+    "id": "h8fQc8v46n"
+  },
+  {
+    "fullname": "Соколова  Маргарита Васильевна",
+    "birthDate": "20.02.1931",
+    "age": 85,
+    "alive": "T",
+    "sex": "F",
+    "sn": "Соколова",
+    "firstName": "Маргарита",
+    "patronymic": "Васильевна",
+    "byear": 1931,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "05.02.2008",
+    "de": "13.03.2009",
+    "bfdateGED": "20 FEB 1931",
+    "father": { "id": "h7gKdsl1d5" },
+    "mother": { "id": "h7gl9B47mE" },
+    "spouse": [
+      { "child": { "id": "h8fn9OFW36" }, "marriage": {}, "id": "h8fMScrp4K" },
+      { "marriage": {}, "child": { "id": "h8fmP8oCr0" }, "id": "h8fme7XA5Y" }
+    ],
+    "id": "h8fLiELW4R"
+  },
+  {
+    "fullname": "Соколовская (Хоукингс) (Шерлаимова) Евгения Сергеевна",
+    "birthDate": "16.12.1905",
+    "sex": "F",
+    "bplace": "Китай, г. Харбин",
+    "lifespan": 79,
+    "dfdate": "27.08.1985",
+    "dplace": "США, г. Сан Франциско",
+    "sn": "Соколовская (Хоукингс)",
+    "lastName": "Шерлаимова",
+    "firstName": "Евгения",
+    "patronymic": "Сергеевна",
+    "byear": 1905,
+    "dyear": 1985,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.11.2012",
+    "de": "18.02.2013",
+    "bfdateGED": "16 DEC 1905",
+    "dfdateGED": "27 AUG 1985",
+    "father": { "id": "kwDd0Qlnqq" },
+    "mother": { "id": "v56AXBGkw9" },
+    "spouse": [
+      { "marriage": {}, "id": "Vt4tKFoytU" },
+      { "child": { "id": "Vt4uAs70c5" }, "marriage": {}, "id": "Vt4t8XITPi" }
+    ],
+    "id": "v569YqV2ET"
+  },
+  {
+    "fullname": "Толстикова Галина",
+    "comment": "Живет в Усть-Орде. На пенсии. Больше 70 лет. Муж был летчиком. Умер. Живет одна.",
+    "alive": "T",
+    "sex": "F",
+    "sn": "Толстикова",
+    "firstName": "Галина",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "de": "13.07.2014",
+    "father": { "id": "102G1HQEOW" },
+    "spouse": [
+      { "child": { "id": "102GDrWe92" }, "id": "" },
+      { "child": { "id": "102GDWyj48" }, "id": "" }
+    ],
+    "id": "102GdpS9L7"
+  },
+  {
+    "fullname": "Фадеев Трофим",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Фадеев",
+    "firstName": "Трофим",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "spouse": [
+      { "child": { "id": "MHeVQhFzWv" }, "id": "" },
+      { "child": { "id": "MHeVXYKAQk" }, "id": "" },
+      { "child": { "id": "MHewbqlXtS" }, "id": "" },
+      { "child": { "id": "MHenaKlRG1" }, "id": "" }
+    ],
+    "id": "MHeVGlFCgr"
+  },
+  {
+    "fullname": "Чернышева (Шерлаимова) Анастасия Ивановна",
+    "sex": "F",
+    "sn": "Чернышева",
+    "lastName": "Шерлаимова",
+    "firstName": "Анастасия",
+    "patronymic": "Ивановна",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "de": "23.03.2009",
+    "father": { "id": "h7gH2331Lk" },
+    "mother": { "id": "h7gHIDDsTC" },
+    "spouse": [
+      { "marriage": {}, "id": "ktgCoZzvb6" },
+      { "child": { "id": "ktgDtJo5BY" }, "marriage": {}, "id": "ktgphvEYTF" }
+    ],
+    "id": "h7giqFRk0E"
+  },
+  {
+    "fullname": "Шерлаимов Максим Алексеевич",
+    "pl_full": "Россия, г. Шадринск",
+    "sex": "M",
+    "sn": "Шерлаимов",
+    "firstName": "Максим",
+    "patronymic": "Алексеевич",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "07.01.2013",
+    "father": { "id": "V866yZb5Vz" },
+    "spouse": [
+      { "child": { "id": "V86MpGcccH" }, "id": "" },
+      { "child": { "id": "V86n8Yn3Oa" }, "id": "" },
+      { "child": { "id": "V86Nbih2FM" }, "id": "" }
+    ],
+    "id": "V86mapwASI"
+  },
+  {
+    "fullname": "Шерлаимов Николай Николаевич",
+    "birthDate": "14.06.1920",
+    "age": 95,
+    "comment": "«был Коля Шерлаимов, очень серьезный хороший инженер и ему сейчас будут подчиняться 20 инженеров молодых. Очень хочется ему увидеть тетю Зою и дядю Митю Яшу; Гору, но уже все сроки прошли отпуску, улетел на самолете. Папа очень довольный Колей,  ...     высокий, интересный мужчина. Папа все его уговаривал на Жене Редровой жениться, что уж больно хорош и что Женю любим она хорошая девочка, но он отказался, что большая родня; а всетаки жениться собирается; наверно уж есть какая нибуть, я говорит плохую не возьму;»\r\nТак вот старики все хотят устроить жизнь младших поколений. А Женя училась в это время в 8-м классе и жила себе и не думала о тщетных попытках дедушки Ивана. Возраст внучки не был для него помехой: сам он женился на пятнадцатилетней девочке и обожал ее всю жизнь.",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Шерлаимов",
+    "firstName": "Николай",
+    "patronymic": "Николаевич",
+    "byear": 1920,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "29.03.2009",
+    "de": "08.11.2015",
+    "bfdateGED": "14 JUN 1920",
+    "father": { "id": "kwDiB1IyqX" },
+    "mother": { "id": "kXEMmnzOpz" },
+    "spouse": [
+      { "child": { "id": "kXEoTubZmC" }, "id": "" },
+      { "child": { "id": "kXEonvbcfG" }, "id": "" }
+    ],
+    "id": "kwDqkY7F8G"
+  },
+  {
+    "fullname": "Шнелле Иннокентий Иннокентьевич",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Шнелле",
+    "firstName": "Иннокентий",
+    "patronymic": "Иннокентьевич",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "24.03.2009",
+    "father": { "id": "ktFgVzi6rg" },
+    "mother": { "id": "kTfpudfkr9" },
+    "spouse": [
+      { "child": { "id": "kTfUs2vgh1" }, "id": "" },
+      { "child": { "id": "kTfvb5M4lg" }, "id": "" }
+    ],
+    "id": "kTfrmFjWzZ"
+  },
+  {
+    "fullname": "Шумаков ...",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Шумаков",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "spouse": [
+      { "child": { "id": "MHEId54wnW" }, "id": "" },
+      { "child": { "id": "MHEJByWhsh" }, "id": "" },
+      { "child": { "id": "MHEJGek639" }, "id": "" }
+    ],
+    "id": "MHEjThnqno"
+  },
+  {
+    "fullname": "Шумаков Виктор Дмитриевич",
+    "sex": "M",
+    "dfdate": 2008,
+    "sn": "Шумаков",
+    "firstName": "Виктор",
+    "patronymic": "Дмитриевич",
+    "dyear": 2008,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "dfdateGED": 2008,
+    "father": { "id": "MHDmo4YcS4" },
+    "mother": { "id": "MHDMkxfcVJ" },
+    "spouse": [
+      { "child": { "id": "MHDOaB4Q9w" }, "id": "" },
+      { "child": { "id": "MHDOHB4Qow" }, "id": "" },
+      { "child": { "id": "MHDOoRnCip" }, "id": "" }
+    ],
+    "id": "MHDoodSBH5"
+  },
+  {
+    "fullname": "Шумаков Николай Дмитриевич",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Шумаков",
+    "firstName": "Николай",
+    "patronymic": "Дмитриевич",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.01.2010",
+    "father": { "id": "MHDmo4YcS4" },
+    "mother": { "id": "MHDMkxfcVJ" },
+    "spouse": [
+      { "child": { "id": "MHDo79LP4F" }, "id": "" },
+      { "child": { "id": "MHDoenJcua" }, "id": "" }
+    ],
+    "id": "MHDNiNUh3H"
+  },
+  {
+    "fullname": "Шумакова (Андрюха) (Редрова) Вера Александровна",
+    "birthDate": "30.09.1922",
+    "sex": "F",
+    "lifespan": 73,
+    "dfdate": "12.09.1996",
+    "sn": "Шумакова (Андрюха)",
+    "lastName": "Редрова",
+    "firstName": "Вера",
+    "patronymic": "Александровна",
+    "byear": 1922,
+    "dyear": 1996,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "de": "04.08.2015",
+    "bfdateGED": "30 SEP 1922",
+    "dfdateGED": "12 SEP 1996",
+    "father": { "id": "h7FYBLsW0o" },
+    "mother": { "id": "h7g7Ddp52j" },
+    "spouse": [
+      {
+        "marriage": {},
+        "child": [{ "id": "h7gEc0ybwm" }, { "id": "h7gEunu8h1" }],
+        "id": "h7geNGSsNi"
+      },
+      { "marriage": {}, "child": { "id": "h7gCp1WsYw" }, "id": "h7gcP00AWH" }
+    ],
+    "id": "h7gBQTKF5J"
+  },
+  {
+    "fullname": "Шумакова Екатерина Андреевна",
+    "birthDate": "24.09.1980",
+    "age": 35,
+    "alive": "T",
+    "sex": "F",
+    "sn": "Шумакова",
+    "firstName": "Екатерина",
+    "patronymic": "Андреевна",
+    "byear": 1980,
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "04.02.2008",
+    "de": "04.08.2015",
+    "bfdateGED": "24 SEP 1980",
+    "father": { "id": "h7gEunu8h1" },
+    "mother": { "id": "h7gfLXJ9PZ" },
+    "spouse": [
+      { "marriage": {}, "child": { "id": "h7gFUJm8kX" }, "id": "h7gFK9BXHF" },
+      {
+        "marriage": { "date": "21.08.2010", "dateGED": "21 AUG 2010" },
+        "child": { "id": "19OeJfSi8d" },
+        "id": "16DfiVJh9Y"
+      }
+    ],
+    "id": "h7gfuiDsx0"
+  },
+  {
+    "fullname": "Шура (Александра?)",
+    "comment": "Работала в колхозе. Жила в Усть-Орде.",
+    "sex": "F",
+    "firstName": "Шура (Александра?)",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "13.07.2014",
+    "father": { "id": "102G1HQEOW" },
+    "spouse": [
+      { "child": { "id": "102GERazAC" }, "id": "" },
+      { "child": { "id": "102Gf5w1D1" }, "id": "" }
+    ],
+    "id": "102GeMb4pS"
+  },
+  {
+    "fullname": "Юсупов Гимай",
+    "alive": "T",
+    "sex": "M",
+    "sn": "Юсупов",
+    "firstName": "Гимай",
+    "ltrust": 10,
+    "lconf": 0,
+    "di": "03.01.2010",
+    "spouse": [
+      { "child": { "id": "MhdiVG1PSv" }, "id": "" },
+      { "child": { "id": "MhdIAsfw38" }, "id": "" },
+      { "child": { "id": "MhdFExovmC" }, "id": "" }
+    ],
+    "id": "MhdiKjla0V"
+  }
+]
