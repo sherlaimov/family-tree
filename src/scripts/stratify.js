@@ -2,25 +2,12 @@ import path from 'path';
 import fs from 'fs';
 import util from 'util';
 
-// import { flattenData, hasProp } from './index';
+import { hasProp, schnelleIvan, sherlaimovaDariaId } from './common';
 
 const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
-const filePathAll = path.resolve(__dirname, '../../data/sherlaimov/mergedBySpouseAndByHand.json');
-
-const sherlaimovaDariaId = 'v77GrqyjEL';
-const motherId = 'Vt4eiud7gy';
-const eleonoraId = 'kRfciWawSG';
-const schnelleIvan = 'MhCXuujLud';
-
-const hasProp = Function.prototype.call.bind(Object.prototype.hasOwnProperty);
-
-const hasNoParents = o => o.father === undefined && o.mother === undefined;
-
-const hasNoSpouses = data => data.filter(node => node.spouse === undefined);
-
-const findById = ({ data, id }) => data.find(person => person.id === id);
+const filePathAll = path.resolve(__dirname, '../../data/sherlaimov/mergedBySpouseAndByHand2.json');
 
 const getChildren = o => {
   if (Array.isArray(o)) {
@@ -142,13 +129,10 @@ const buildTrees = async () => {
   });
   console.log(`Tree data.length => ${treeData.length}`);
   const withChildren = treeData.filter(person => hasProp(person, 'children'));
-  // .find(node => node.id === sherlaimovaDariaId);
-
   const allRootChildrenCnt = calculateChildren(withChildren);
-  console.log(allRootChildrenCnt);
-
-  console.log(withChildren.length);
-  // createFile({ data: withChildren, fileName: 'sherlaimovaDaria' });
+  console.table(allRootChildrenCnt);
+  const targetNestedData = withChildren.find(node => node.id === sherlaimovaDariaId);
+  createFile({ data: targetNestedData, fileName: 'sherlaimovaDariaAndByHand2' });
 };
 
 buildTrees();

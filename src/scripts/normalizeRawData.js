@@ -2,23 +2,14 @@ import path from 'path';
 import fs from 'fs';
 import util from 'util';
 
-import { flattenData, hasProp } from './index';
+import { compose, hasNoParents, hasProp } from './common';
 
 const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
 const filePathAll = path.resolve(__dirname, '../../data/sherlaimovTreeRaw.json');
 
-const rootNodeId = 'MhCX23FNQm';
-const motherId = 'Vt4eiud7gy';
-
-const hasNoParents = o => o.father === undefined && o.mother === undefined;
-
-const hasNoSpouses = data => data.filter(node => node.spouse === undefined);
-
-const findById = ({ data, id }) => data.find(person => person.id === id);
-
-const getChildren = o => ['spouse', 'child'].reduce((xs, x) => (xs && xs[x] ? xs[x] : null), o);
+const getPreview = o => ['doc', 'preview'].reduce((acc, x) => (acc && acc[x] ? acc[x] : null), o);
 
 const getSpouseId = o => {
   if (Array.isArray(o.spouse)) {
@@ -31,39 +22,59 @@ const getSpouseId = o => {
 const findIndexById = ({ data, id }) => data.findIndex(person => person.id === id);
 
 async function getRawTreeData() {
-  const mapData = ({ doc, ...rest }) => ({ ...rest });
+  // const mapData = ({ doc, ...rest }) => ({ ...rest });
   try {
     const response = await readFile(filePathAll, 'utf8');
     const data = JSON.parse(response);
-    const mappedData = data.map(mapData);
-    return mappedData;
+    return data;
   } catch (e) {
     console.error(e);
     return undefined;
   }
 }
-// ! SPOUSE prop can be an array
 // TODO if no parents object should merge with a spouse object:
 // TODO 1) by a spouse property
 // TODO 2) children should be merged as well
 // ! IF NO PARENTS && NO SPOUSE LEAVE AS IT IS
 // ! IF NO PARENTS && NO SPOUSE && NO CHILDREN -> REMOVE
 
-const normalizeData = data =>
-  data.map(person => {
-    const { spouse } = person;
-    if (Array.isArray(spouse)) {
-      const newSpouse = spouse.map(line => {
-        if (line.id === '') {
-          line.id = 'Unknown spouse';
-          return line;
+const addPersonImage = person => {
+  if (hasProp(person, 'doc')) {
+    if (Array.isArray(person.doc)) {
+      const targetDoc = person.doc.find(doc => {
+        const title = String(doc.title);
+        if (title.includes(person.firstName)) {
+          return true;
         }
-        return line;
       });
-      person.spouse = newSpouse;
+      if (targetDoc !== null && targetDoc !== undefined) {
+        person.image = targetDoc.preview;
+      } else {
+        person.image = person.doc[0].preview;
+      }
+    } else {
+      person.image = getPreview(person);
     }
-    return person;
-  });
+
+    delete person.doc;
+  }
+  return person;
+};
+const mergeSpouseArray = person => {
+  if (!hasProp(person, 'spouse')) return person;
+  const { spouse } = person;
+  if (Array.isArray(spouse)) {
+    const newSpouse = spouse.map(line => {
+      if (line.id === '') {
+        line.id = 'Unknown spouse';
+        return line;
+      }
+      return line;
+    });
+    person.spouse = newSpouse;
+  }
+  return person;
+};
 
 const mergeBySpouseIfNoParents = data => {
   const dataCopy = [...data];
@@ -97,14 +108,14 @@ const mergeBySpouseIfNoParents = data => {
 const runParser = async () => {
   const data = await getRawTreeData();
   // console.log(personsWithSpouseArray);
-  const normalizedFullData = normalizeData(data);
+  const normalizedFullData = data.map(addPersonImage).map(mergeSpouseArray);
   const mergedBySpouse = mergeBySpouseIfNoParents(normalizedFullData);
   const noParentsRoots = mergedBySpouse.filter(person => hasNoParents(person));
-  console.log(mergedBySpouse.length);
-  console.log(noParentsRoots.length);
-  const testJson = JSON.stringify(noParentsRoots);
-  const file = writeFile('./data/sherlaimov/stillNoParents.json', testJson, 'utf8');
-  file.then(data => console.log('Success')).catch(e => console.log(e));
+  console.log(`No parents roots total => ${noParentsRoots.length}`);
+  console.log(`MergedBySoupe nodes total => ${mergedBySpouse.length}`);
+  const json = JSON.stringify(mergedBySpouse);
+  const file = writeFile('./data/sherlaimov/mergedBySpouse.json', json, 'utf8');
+  file.then(() => console.log('Success')).catch(e => console.log(e));
 };
 
 runParser();

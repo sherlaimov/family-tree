@@ -1,116 +1,21 @@
-$select-color: #fff;
-$select-background: #c0392b;
-$select-width: 220px;
-$select-height: 40px;
-
 body {
-  background-color: #1b1b19;
-  color: #fff;
-}
-text {
-  fill: #fff;
-}
-line {
-  stroke: #fff;
+  min-height: 100%;
 }
 
-.link {
-  stroke: #999;
-  stroke-opacity: 0.6;
-  stroke-width: 1px;
-}
-.node {
-  cursor: pointer;
-  &:hover {
-    & circle {
-      stroke: #fff;
-      stroke-width: 1px;
-    }
-  }
-}
+// https://stackoverflow.com/questions/8344688/how-to-get-scrollbars-in-svg/11449016#11449016
+// #root {
+//   height: 980px;
+//   width: 1000px;
+//   border: 2px solid #000;
+//   overflow: scroll;
+// }
 
-.tooltip {
-  & .description {
-    font-weight: normal;
-    font-size: 0.9rem;
-  }
-  color: #dedede;
-  position: absolute;
-  text-align: left;
-  padding: 10px;
-  background: #000;
-  font: 1rem sans-serif;
-  font-weight: bold;
-  border: 1px solid black;
-  border-radius: 8px;
-  pointer-events: none;
-  max-width: 230px;
-}
-
-/* Custom dropdown */
-.custom-dropdown {
-  position: absolute;
-  display: inline-block;
-  vertical-align: middle;
-  margin: 10px; /* demo only */
-  select {
-    cursor: pointer;
-    background-color: #606060;
-    color: #fff;
-    font-size: 0.9rem;
-    padding: 0.5em;
-    padding-right: 2em;
-    border: 0;
-    margin: 0;
-    border-radius: 3px;
-    text-indent: 0.01px;
-    text-overflow: '';
-    -webkit-appearance: button; /* hide default arrow in chrome OSX */
-  }
-}
-
-.custom-dropdown::before,
-.custom-dropdown::after {
-  content: '';
-  position: absolute;
-  pointer-events: none;
-}
-
-.custom-dropdown::after {
-  /*  Custom dropdown arrow */
-  content: '\25BC';
-  height: 1em;
-  font-size: 0.625em;
-  line-height: 1;
-  right: 1.2em;
-  top: 50%;
-  margin-top: -0.5em;
-}
-
-.custom-dropdown::before {
-  /*  Custom dropdown arrow cover */
-  width: 2em;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  border-radius: 0 3px 3px 0;
-}
-
-.custom-dropdown select[disabled] {
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.custom-dropdown select[disabled]::after {
-  color: rgba(0, 0, 0, 0.1);
-}
-
-.custom-dropdown::before {
-  background-color: rgba(0, 0, 0, 0.15);
-}
-
-.custom-dropdown::after {
-  color: rgba(0, 0, 0, 0.4);
-}
+// svg {
+//   height: 100px;
+//   width: 1100px;
+//   border: 1px dotted #ccc;
+//   background-color: #ccc;
+// }
 /* path {
       fill: none;
       stroke: #646464;

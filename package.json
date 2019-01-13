@@ -5,6 +5,8 @@
   "main": "data-model.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
+    "stratify": "babel-node ./src/scripts/stratify.js",
+    "normalize:data": "babel-node ./src/scripts/normalizeRawData.js",
     "build": "webpack --mode production -p --config webpack.config.js --hide-modules"
   },
   "author": "",
@@ -26,7 +28,7 @@
     "style-loader": "^0.18.2",
     "webpack": "^4.17.0",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5"
+    "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",

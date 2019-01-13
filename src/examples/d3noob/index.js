@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
 import data from '../../../data/d3noob';
-import chartFactory from '../../helpers/common';
+import chartFactory from "../../helpers";
 
 const width = window.innerWidth;
 const height = window.innerHeight;
