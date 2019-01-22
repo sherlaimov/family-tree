@@ -10,6 +10,19 @@ const protoChart = {
     bottom: 10
   }
 };
+/**
+ * Custom path function that creates straight connecting lines.
+ const elbow = d =>
+   `M${d.source.x},${d.source.y}H${d.source.x + (d.target.x - d.source.x) / 2}V${d.target.y}H${
+     d.target.y
+   }`;
+ */
+export const elbow = d =>
+  `M${d.source.x},${d.source.y}V${d.target.y}H${d.target.x}${
+    d.target.children ? '' : `v${margin.bottom}`
+  }`;
+
+export const elbow2 = d => `M${d.source.x},${d.source.y}V${d.source.y}H${d.target.x}V${d.target.y}`;
 
 export default function chartFactory(opts, proto = protoChart) {
   const chart = Object.assign({}, proto, opts);
@@ -32,13 +45,14 @@ export default function chartFactory(opts, proto = protoChart) {
 export const hasProp = Function.prototype.call.bind(Object.prototype.hasOwnProperty);
 
 export const flattenData = obj => {
-  const array = Array.isArray(obj) ? obj : [obj];
+  const targetObj = { ...obj };
+  const array = Array.isArray(targetObj) ? targetObj : [targetObj];
   return array.reduce((acc, value) => {
     if (value.hasOwnProperty('children')) {
       const { children } = value;
       delete value.children;
       acc.push(value);
-      acc = acc.concat(flatten(children));
+      acc = acc.concat(flattenData(children));
     }
     return acc;
   }, []);

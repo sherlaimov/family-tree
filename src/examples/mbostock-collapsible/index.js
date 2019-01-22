@@ -6,6 +6,7 @@ import allRoots from '../../../data/sherlaimov/allNodes';
 import chartFactory from '../../helpers/index';
 
 window.data = data;
+
 const hasProp = Function.prototype.call.bind(Object.prototype.hasOwnProperty);
 //  require("@observablehq/flare")
 const { container, svg, margin, width, height } = chartFactory();
@@ -14,15 +15,17 @@ const { container, svg, margin, width, height } = chartFactory();
 
 const dy = height / 8;
 const dx = 25;
-const textData = [
-  { text: 'Here is some sample text that has been wrapped using d3plus.textBox.' },
-  { text: '...and here is a second sentence!' },
-  { text: '这是句3号。这也即使包装没有空格！' }
-];
+
+const defs = svg.append('svg:defs');
+const imageWidth = 40;
 
 const boxWidth = 150;
 const boxHeight = 50;
 const boxMultiplicator = 1.5;
+const edgeWeight = d3
+  .scaleLinear()
+  .domain([0, 10])
+  .range([0, 50]);
 
 const tree = d3
   .tree()
@@ -32,33 +35,36 @@ const tree = d3
   .nodeSize([130, 200])
   .separation((a, b) => (a.parent === b.parent ? 1.9 : 2));
 
-// const diagonal = d3
-//   .linkHorizontal()
-//   .x(d => d.y)
-//   .y(d => d.x);
-
 const diagonal = d3
   .linkVertical()
   .x(d => d.x)
   .y(d => d.y);
 
-/**
- * Custom path function that creates straight connecting lines.
- const elbow = d =>
-   `M${d.source.x},${d.source.y}H${d.source.x + (d.target.x - d.source.x) / 2}V${d.target.y}H${
-     d.target.y
-   }`;
- */
-function elbow(d, i) {
-  console.log(d);
-  return `M${d.source.x},${d.source.y}V${d.target.y}H${d.target.x}${
-    d.target.children ? '' : `v${margin.bottom}`
-  }`;
-}
+const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-const testElbow = d => `M${d.source.x},${d.source.y}V${d.source.y}H${d.target.x}V${d.target.y}`;
-
+console.log('data', data);
 const root = d3.hierarchy(data);
+window.root = root;
+console.log('root', root);
+
+// DATA SEARCH
+const allLastNames = root
+  .descendants()
+  .map(({ data }) => data)
+  .reduce((acc, a) => {
+    if (acc.includes(a.lastName) === false) {
+      acc.push(a.lastName);
+    }
+    return acc;
+  }, []);
+console.log(allLastNames);
+
+const allComments = root
+  .descendants()
+  .map(({ data }) => data)
+  .filter(person => hasProp(person, 'comment'));
+console.log(allComments);
+// DATA SEARCH
 
 root.x0 = width / 2;
 root.y0 = 0;
@@ -93,22 +99,22 @@ svg.call(
   })
 );
 
-// d3.select('body').append(svg);
-
 const gLink = container
   .append('g')
   .attr('fill', 'none')
   // .attr('transform', `translate(${width / 2},0)`)
   .attr('stroke', '#555')
-  .attr('stroke-opacity', 0.4)
-  .attr('stroke-width', 1.5);
+  .attr('class', 'links');
+// .attr('stroke-opacity', 0.4);
+// .attr('stroke-width', 1.5);
 
-const gNode = container.append('g').attr('cursor', 'pointer');
-// const textBox = container.append('g');
-console.log(root);
-// const box = new d3plus.TextBox()
+const gNode = container
+  .append('g')
+  .attr('cursor', 'pointer')
+  .attr('class', 'nodes');
+
 function update(source) {
-  console.log(source);
+  // console.log(source);
   const duration = d3.event && d3.event.altKey ? 2500 : 250;
   const nodes = root.descendants().reverse();
   const links = root.links();
@@ -151,14 +157,6 @@ function update(source) {
       update(d);
     });
 
-  /**
-     * 
-     nodeEnter
-    .append('circle')
-    .attr('r', 10)
-    .attr('fill', d => (d._children ? '#555' : '#999'));
-     */
-
   nodeEnter.append('rect').attrs({
     x: d => {
       if (hasProp(d.data, 'spouseData')) {
@@ -177,191 +175,92 @@ function update(source) {
     fill: d => (d._children ? '#555' : '#999')
   });
 
-  const defs = svg.append('svg:defs');
-  const imageWidth = 40;
+  const appendNodeImage = (data, currNode, type) => {
+    const transformMap = {
+      left: `translate(${-((boxWidth * boxMultiplicator) / 2) + 3}, -18)`,
+      right: 'translate(0, -18)',
+      normal: `translate(${-(boxWidth / 2) + 3}, -18)`
+    };
+    defs
+      .append('svg:pattern')
+      .attrs({
+        id: `image-${data.id}`,
+        height: imageWidth,
+        width: imageWidth,
+        patternUnits: 'userSpaceOnUse'
+      })
+      .append('image')
+      .attrs({
+        height: imageWidth,
+        width: imageWidth,
+        'xlink:href': () => `data:image/png;base64,${data.image ? data.image : null}`
+      });
+    currNode.append('circle').attrs({
+      cx: imageWidth / 2,
+      cy: imageWidth / 2,
+      r: imageWidth / 2,
+      transform: () => transformMap[type],
+      fill: () => (data.image ? `url(#image-${data.id})` : '#ccc')
+    });
+  };
 
-  function appendTextNodes(d, i) {
+  const appendNodeText = (data, currNode, type) => {
+    const xValueMap = {
+      left: -60,
+      right: 40,
+      normal: -30
+    };
+    currNode
+      .append('text')
+      .attr('x', () => xValueMap[type])
+      .attr('y', -5)
+      .text(() => data.lastName || data.sn || 'Unknown')
+      .attr('class', 'lastName');
+
+    currNode
+      .append('text')
+      .attr('x', () => xValueMap[type])
+      .attr('y', 5)
+      .text(() => data.firstName || 'Uknown')
+      .attr('class', 'firstName');
+
+    currNode
+      .append('text')
+      .attr('x', () => xValueMap[type])
+      .attr('y', 15)
+      .text(() => data.patronymic || 'Uknown')
+      .attr('class', 'patronymic');
+
+    currNode
+      .append('text')
+      .attr('x', () => xValueMap[type])
+      .attr('y', 25)
+      .attr('class', 'birthDate')
+      .text(() => data.birthDate || 'Uknown');
+  };
+
+  function appendTextNodes(d) {
     const { data } = d;
     const currNode = d3.select(this);
     if (hasProp(data, 'spouseData')) {
       const { spouseData } = data;
-      // console.log(currNode.select('rect').node());
+      /* LEFT IMAGE */
+      appendNodeImage(data, currNode, 'left');
+      /* RIGHT IMAGE */
+      appendNodeImage(spouseData, currNode, 'right');
 
-      /* IMAGE */
-      defs
-        .append('svg:pattern')
-        .attrs({
-          id: `image-${data.id}`,
-          height: imageWidth,
-          width: imageWidth,
-          patternUnits: 'userSpaceOnUse'
-        })
-        .append('image')
-        .attrs({
-          height: imageWidth,
-          width: imageWidth,
-          'xlink:href': () => `data:image/png;base64,${data.image ? data.image : null}`
-        });
-      currNode.append('circle').attrs({
-        cx: imageWidth / 2,
-        cy: imageWidth / 2,
-        r: imageWidth / 2,
-        transform: `translate(${-((boxWidth * boxMultiplicator) / 2) + 3}, -18)`,
-        fill: () => (data.image ? `url(#image-${data.id})` : '#ccc')
-      });
-
-      /* SPOUSE IMAGE */
-      defs
-        .append('svg:pattern')
-        .attrs({
-          id: `image-${data.spouseData.id}`,
-          height: imageWidth,
-          width: imageWidth,
-          patternUnits: 'userSpaceOnUse'
-        })
-        .append('image')
-        .attrs({
-          height: imageWidth,
-          width: imageWidth,
-          'xlink:href': () =>
-            `data:image/png;base64,${data.spouseData.image ? data.spouseData.image : null}`
-        });
-      currNode.append('circle').attrs({
-        cx: imageWidth / 2,
-        cy: imageWidth / 2,
-        r: imageWidth / 2,
-        transform: `translate(0, -18)`,
-        fill: () => (data.spouseData.image ? `url(#image-${data.spouseData.id})` : '#ccc')
-      });
-
-      currNode
-        .append('text')
-        .attr('x', -60)
-        .attr('y', 0)
-        .text(() => data.firstName)
-        .attr('class', 'firstName');
-      // .call(wrap, boxWidth);
-      currNode
-        .append('text')
-        .attr('x', -60)
-        .attr('y', 20)
-        .attr('class', 'birthDate')
-        .text(() => data.birthDate || 'Uknown');
-      // .call(wrap, boxWidth);
-
-      currNode
-        .append('text')
-        .attr('x', 40)
-        .attr('y', 0)
-        .text(() => spouseData.firstName || 'Uknown')
-        .attr('class', 'firstName');
-      // .call(wrap, boxWidth);
-      currNode
-        .append('text')
-        .attr('x', 40)
-        .attr('y', 20)
-        .attr('class', 'birthDate')
-        .text(() => spouseData.birthDate || 'Uknown');
-      // .call(wrap, boxWidth);
+      /* LEFT DATA */
+      appendNodeText(data, currNode, 'left');
+      /* RIGHT DATA */
+      appendNodeText(spouseData, currNode, 'right');
     } else {
-      /* IMAGE */
-      defs
-        .append('svg:pattern')
-        .attrs({
-          id: `image-${data.id}`,
-          height: imageWidth,
-          width: imageWidth,
-          patternUnits: 'userSpaceOnUse'
-        })
-        .append('image')
-        .attrs({
-          height: imageWidth,
-          width: imageWidth,
-          'xlink:href': () => `data:image/png;base64,${data.image ? data.image : null}`
-        });
-      currNode.append('circle').attrs({
-        cx: imageWidth / 2,
-        cy: imageWidth / 2,
-        r: imageWidth / 2,
-        transform: `translate(${-(boxWidth / 2) + 3}, -18)`,
-        fill: () => (data.image ? `url(#image-${data.id})` : '#ccc')
-      });
-      currNode
-        .append('text')
-        .attr('x', -30)
-        .attr('y', 0)
-        .text(() => data.firstName);
-
-      currNode
-        .append('text')
-        .attr('x', -30)
-        .attr('y', 10)
-        .text(() => data.patronymic);
-
-      currNode
-        .append('text')
-        .attr('x', -30)
-        .attr('y', 20)
-        .text(() => data.birthDate);
+      /* NORMAL */
+      appendNodeImage(data, currNode, 'normal');
+      appendNodeText(data, currNode, 'normal');
     }
   }
+
   nodeEnter.each(appendTextNodes);
-
-  function wrap(text, boxWidth) {
-    boxWidth /= 2;
-    // console.log(text);
-    text.each(function each() {
-      const text = d3.select(this);
-
-      const words = text
-        .text()
-        .split(/\s+/)
-        .reverse();
-
-      let word;
-      let line = [];
-      let lineNumber = 0;
-      const lineHeight = 1.1;
-      // ems
-
-      const y = text.attr('y') || 0;
-      const dy = parseFloat(text.attr('dy')) || 0;
-      let tspan = text
-        .text(null)
-        .append('tspan')
-        .attr('x', -(boxWidth / 2))
-        .attr('y', y)
-        .attr('dy', `${dy}em`);
-      while ((word = words.pop())) {
-        // word
-        line.push(word);
-        tspan.text(line.join(' '));
-        if (tspan.node().getComputedTextLength() > boxWidth) {
-          line.pop();
-          tspan.text(line.join(' '));
-          line = [word];
-          tspan = text
-            .append('tspan')
-            .attr('x', -(boxWidth / 2))
-            .attr('y', y)
-            .attr('dy', `${++lineNumber * lineHeight + dy}em`)
-            .text(word);
-        }
-      }
-    });
-  }
-
-  /*
-  nodeEnter
-    .append('text')
-    // .attr('dy', '0.31em')
-    .attr('dy', 0)
-    .attr('dx', 0)
-    // .attr('x', d => 0)
-    // .attr('x', d => (d._children ? -6 : 6))
-    // .attr('text-anchor', d => (d._children ? 'end' : 'start'))
-    .text(d => d.data.fullname);
-  */
 
   // Transition nodes to their new position.
   const nodeUpdate = node
@@ -381,32 +280,60 @@ function update(source) {
     .attr('stroke-opacity', 0);
 
   // Update the links…
+  // .data(links, d => d.target.id);
   const link = gLink.selectAll('path').data(links, d => d.target.id);
+
+  const calcStrokeWidth = d => {
+    const { target } = d;
+    // console.log(target);
+    if (hasProp(target, '_children')) {
+      return edgeWeight(target._children.length);
+    }
+    if (hasProp(target, 'children') && target.children !== null) {
+      return edgeWeight(target.children.length);
+    }
+    return 1.5;
+  };
 
   // Enter any new links at the parent's previous position.
   const linkEnter = link
     .enter()
     .append('path')
-    .attr('d', d => {
+    .attr('d', () => {
       const o = { x: source.x0, y: source.y0 };
       return diagonal({ source: o, target: o });
-    });
+    })
+    // '#555'
+    .attr('stroke', d => {
+      const { data } = d.source;
+      console.log(data);
+      return colorScale(data.lastName);
+    })
+    .attr('stroke-opacity', 0.4)
+    .attr('stroke-width', calcStrokeWidth);
 
   // Transition links to their new position.
   link
     .merge(linkEnter)
     .transition(transition)
-    .attr('d', diagonal);
+    .attr('d', diagonal)
+    // .attr('d', () => {
+    //   const o = { x: source.x, y: source.y };
+    //   return diagonal({ source: o, target: o });
+    // })
+    .attr('stroke-width', calcStrokeWidth);
 
   // Transition exiting nodes to the parent's new position.
   link
     .exit()
     .transition(transition)
     .remove()
-    .attr('d', d => {
+    .attr('d', () => {
       const o = { x: source.x, y: source.y };
       return diagonal({ source: o, target: o });
     });
+
+  // .attr('stroke-width', d => edgeWeight(d._children.length));
 
   // Stash the old positions for transition.
   root.eachBefore(d => {
@@ -416,20 +343,3 @@ function update(source) {
 }
 
 update(root);
-
-// return svg.node();
-
-/*
-A possible solution is using this simple math:
-
-node.attr("transform", function(d) {
-    return "translate(" + (d.x = Math.max(0, Math.min(width, d.x))) + "," 
-    + (d.y = Math.max(0, Math.min(height, d.y))) + ")"
-});
-If you want to take into account the radii of your circles (which right now is 10), it becomes:
-
-node.attr("transform", function(d) {
-    return "translate(" + (d.x = Math.max(10, Math.min(width - 10, d.x))) + "," 
-    + (d.y = Math.max(10, Math.min(height - 10, d.y))) + ")"
-});
-*/
